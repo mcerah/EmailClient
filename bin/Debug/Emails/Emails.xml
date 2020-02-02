@@ -1,0 +1,553 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<messagelist>
+  <message folder="Inbox">
+    <subject>Sending emails with attachments</subject>
+    <date>29/05/2017 00:16:07</date>
+    <sender>mailadsres2s@gmail.com</sender>
+    <recipients>
+      <recipient>tutorials@hcl.com</recipient>
+      <recipient>
+        <address visibility="hidden">rec2@gmail.com</address>
+      </recipient>
+      <recipient>
+        <address visibility="hidden">rec3@hotmail.com</address>
+      </recipient>
+      <recipient>
+        <address visibility="hidden">rec4@gmail.com</address>
+      </recipient>
+    </recipients>
+    <content>
+      <text>&lt;Section xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xml:space="preserve" TextAlignment="Left" LineHeight="Auto" IsHyphenationEnabled="False" xml:lang="en-us" FlowDirection="LeftToRight" NumberSubstitution.CultureSource="User" NumberSubstitution.Substitution="AsCulture" FontFamily="Segoe UI" FontStyle="Normal" FontWeight="Normal" FontStretch="Normal" FontSize="12" Foreground="#FF000000" Typography.StandardLigatures="True" Typography.ContextualLigatures="True" Typography.DiscretionaryLigatures="False" Typography.HistoricalLigatures="False" Typography.AnnotationAlternates="0" Typography.ContextualAlternates="True" Typography.HistoricalForms="False" Typography.Kerning="True" Typography.CapitalSpacing="False" Typography.CaseSensitiveForms="False" Typography.StylisticSet1="False" Typography.StylisticSet2="False" Typography.StylisticSet3="False" Typography.StylisticSet4="False" Typography.StylisticSet5="False" Typography.StylisticSet6="False" Typography.StylisticSet7="False" Typography.StylisticSet8="False" Typography.StylisticSet9="False" Typography.StylisticSet10="False" Typography.StylisticSet11="False" Typography.StylisticSet12="False" Typography.StylisticSet13="False" Typography.StylisticSet14="False" Typography.StylisticSet15="False" Typography.StylisticSet16="False" Typography.StylisticSet17="False" Typography.StylisticSet18="False" Typography.StylisticSet19="False" Typography.StylisticSet20="False" Typography.Fraction="Normal" Typography.SlashedZero="False" Typography.MathematicalGreek="False" Typography.EastAsianExpertForms="False" Typography.Variants="Normal" Typography.Capitals="Normal" Typography.NumeralStyle="Normal" Typography.NumeralAlignment="Normal" Typography.EastAsianWidths="Normal" Typography.EastAsianLanguage="Normal" Typography.StandardSwashes="0" Typography.ContextualSwashes="0" Typography.StylisticAlternates="0"&gt;&lt;Paragraph&gt;&lt;Run&gt;To add &lt;/Run&gt;&lt;Run TextDecorations="Underline"&gt;attachments &lt;/Run&gt;&lt;Run&gt;to an &lt;/Run&gt;&lt;Run Foreground="#FF191970"&gt;email&lt;/Run&gt;&lt;Run&gt;, you will need to use the MultiPartEmail class. This class works just like SimpleEmail except that it adds several overloaded attach() methods to add attachments to the email. You can add an unlimited number of attachments either inline or attached. The attachments will be &lt;/Run&gt;&lt;Run FontWeight="Bold"&gt;MIME &lt;/Run&gt;&lt;Run&gt;encoded.&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run&gt;&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run&gt;The simplest way to add the attachments is by using the EmailAttachment class to reference your attachments.&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run&gt;&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run&gt;In the following example, we will create an attachment for a picture. We will then attach the picture to the email and send it.&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/Section&gt;</text>
+      <attachments>
+        <attachment>
+          <filename>attach1</filename>
+          <filetype>PNG</filetype>
+          <filedata>iVBORw0KGgoAAAANSUhEUgAAAfMAAAF0CAIAAAC42Ed8AAAPX2lDQ1BJQ0MgUHJvZmlsZQAAeJyV
+V3k01G37v76zGvsyxtiH7PueLdsgawkRRcYYS4aZxmRLRQ9tSlkSkVJIWh5b5NFGUbK2oWiTioSH
+ShTN+wf1/M77nve853f9cZ/P/bmv674+13Xuc+5zAYjJ0dhsJgoAYmK5HO+1DpRNAYEU/CAggAAC
+CiBDo8ex7b28POC/2lw/IAAAj3VpbDZzRr8qJoT/27dZHmNmTq6T8d/jAABAmLMpIBAA0QEAYsQy
+tgMAYugy9gUAYgKXzQVAIgGASI+khQEgKQCgw/H1pgIglQAgHLGMrwGAcOgyvg8AwvH0CC4AMgiA
+E48Ni4oFwH8CwNmEMeLoAMI6ABAWFkePARA+BoCyiYlhhQGI9gGABp3N4QKIzgOAyqaAQMqy5KAL
+AKsRANzcP1ycEUCdOACl7B9O9QcAiQ/gYuY/3GdvQAAAIfXGhRsbAQAAIugAgH3J431WA8DnACxl
+83g/zvJ4S+cA0MMAt5n0HZz4lX4hSDfA/9ov17xiaAQABQBEcIZs+IKEIC9R0Wg+dC0mEquJXcK9
+xrfx1RIu89cJ3BTsFpoQwYvqiPmLZ0q0SqJIFlJp5PsycrLhcg0KfIpbKI3KxFWhKrfUiOqJGo+0
+1LWP68zqeepXGRKMwo1bTIXNmKvbLYiWMVbNa8RtAmxL7b44WFATHBucfqwNdOl203Uv8sStY67v</filedata>
+        </attachment>
+        <attachment>
+          <filename>attach2</filename>
+          <filetype>PDF</filetype>
+          <filedata>iVBORw0KGgoAAAANSUhEUgAAAfMAAAF0CAIAAAC42Ed8AAAPX2lDQ1BJQ0MgUHJvZmlsZQAAeJyV
+V3k01G37v76zGvsyxtiH7PueLdsgawkRRcYYS4aZxmRLRQ9tSlkSkVJIWh5b5NFGUbK2oWiTioSH
+ShTN+wf1/M77nve853f9cZ/P/bmv674+13Xuc+5zAYjJ0dhsJgoAYmK5HO+1DpRNAYEU/CAggAAC
+CiBDo8ex7b28POC/2lw/IAAAj3VpbDZzRr8qJoT/27dZHmNmTq6T8d/jAABAmLMpIBAA0QEAYsQy
+tgMAYugy9gUAYgKXzQVAIgGASI+khQEgKQCgw/H1pgIglQAgHLGMrwGAcOgyvg8AwvH0CC4AMgiA
+E48Ni4oFwH8CwNmEMeLoAMI6ABAWFkePARA+BoCyiYlhhQGI9gGABp3N4QKIzgOAyqaAQMqy5KAL
+AKsRANzcP1ycEUCdOACl7B9O9QcAiQ/gYuY/3GdvQAAAIfXGhRsbAQAAIugAgH3J431WA8DnACxl
+83g/zvJ4S+cA0MMAt5n0HZz4lX4hSDfA/9ov17xiaAQABQBEcIZs+IKEIC9R0Wg+dC0mEquJXcK9
+xrfx1RIu89cJ3BTsFpoQwYvqiPmLZ0q0SqJIFlJp5PsycrLhcg0KfIpbKI3KxFWhKrfUiOqJGo+0
+1LWP68zqeepXGRKMwo1bTIXNmKvbLYiWMVbNa8RtAmxL7b44WFATHBucfqwNdOl203Uv8sStY67v</filedata>
+        </attachment>
+      </attachments>
+    </content>
+  </message>
+  <message folder="Inbox">
+    <subject>Sending HTML formatted email</subject>
+    <date>29/05/2017 00:17:17</date>
+    <sender>mailadsres2s@gmail.com</sender>
+    <recipients>
+      <recipient>tutorials@hcl.com</recipient>
+      <recipient>
+        <address visibility="hidden">rec2@gmail.com</address>
+      </recipient>
+      <recipient>
+        <address visibility="hidden">rec3@hotmail.com</address>
+      </recipient>
+      <recipient>
+        <address visibility="hidden">rec4@gmail.com</address>
+      </recipient>
+    </recipients>
+    <content>
+      <text>&lt;Section xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xml:space="preserve" TextAlignment="Left" LineHeight="Auto" IsHyphenationEnabled="False" xml:lang="en-us" FlowDirection="LeftToRight" NumberSubstitution.CultureSource="User" NumberSubstitution.Substitution="AsCulture" FontFamily="Segoe UI" FontStyle="Normal" FontWeight="Normal" FontStretch="Normal" FontSize="12" Foreground="#FF000000" Typography.StandardLigatures="True" Typography.ContextualLigatures="True" Typography.DiscretionaryLigatures="False" Typography.HistoricalLigatures="False" Typography.AnnotationAlternates="0" Typography.ContextualAlternates="True" Typography.HistoricalForms="False" Typography.Kerning="True" Typography.CapitalSpacing="False" Typography.CaseSensitiveForms="False" Typography.StylisticSet1="False" Typography.StylisticSet2="False" Typography.StylisticSet3="False" Typography.StylisticSet4="False" Typography.StylisticSet5="False" Typography.StylisticSet6="False" Typography.StylisticSet7="False" Typography.StylisticSet8="False" Typography.StylisticSet9="False" Typography.StylisticSet10="False" Typography.StylisticSet11="False" Typography.StylisticSet12="False" Typography.StylisticSet13="False" Typography.StylisticSet14="False" Typography.StylisticSet15="False" Typography.StylisticSet16="False" Typography.StylisticSet17="False" Typography.StylisticSet18="False" Typography.StylisticSet19="False" Typography.StylisticSet20="False" Typography.Fraction="Normal" Typography.SlashedZero="False" Typography.MathematicalGreek="False" Typography.EastAsianExpertForms="False" Typography.Variants="Normal" Typography.Capitals="Normal" Typography.NumeralStyle="Normal" Typography.NumeralAlignment="Normal" Typography.EastAsianWidths="Normal" Typography.EastAsianLanguage="Normal" Typography.StandardSwashes="0" Typography.ContextualSwashes="0" Typography.StylisticAlternates="0"&gt;&lt;Paragraph&gt;&lt;Run&gt;Sending HTML formatted email is accomplished by using the HtmlEmail class. This class works exactly like the MultiPartEmail class with additional methods to set the html content, alternative text content if the recipient does not support HTML email, and add inline images.&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run TextDecorations="Underline"&gt;In this example&lt;/Run&gt;&lt;Run&gt;, we will send an email message with formatted HTML content with an inline image.&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run&gt;First, notice that the call to embed() returns a String. This String is a randomly generated identifier that must be used to reference the image in the image tag.&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run&gt;&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run&gt;Next, there was no call to setMsg() in this example. The method is still available in HtmlEmail but it should not be used if you will be using inline images. Instead, the setHtmlMsg() and setTextMsg() methods were used.&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/Section&gt;</text>
+      <attachments>
+        <attachment>
+          <filename>attach1</filename>
+          <filetype>PNG</filetype>
+          <filedata>iVBORw0KGgoAAAANSUhEUgAAAfMAAAF0CAIAAAC42Ed8AAAPX2lDQ1BJQ0MgUHJvZmlsZQAAeJyV
+V3k01G37v76zGvsyxtiH7PueLdsgawkRRcYYS4aZxmRLRQ9tSlkSkVJIWh5b5NFGUbK2oWiTioSH
+ShTN+wf1/M77nve853f9cZ/P/bmv674+13Xuc+5zAYjJ0dhsJgoAYmK5HO+1DpRNAYEU/CAggAAC
+CiBDo8ex7b28POC/2lw/IAAAj3VpbDZzRr8qJoT/27dZHmNmTq6T8d/jAABAmLMpIBAA0QEAYsQy
+tgMAYugy9gUAYgKXzQVAIgGASI+khQEgKQCgw/H1pgIglQAgHLGMrwGAcOgyvg8AwvH0CC4AMgiA
+E48Ni4oFwH8CwNmEMeLoAMI6ABAWFkePARA+BoCyiYlhhQGI9gGABp3N4QKIzgOAyqaAQMqy5KAL
+AKsRANzcP1ycEUCdOACl7B9O9QcAiQ/gYuY/3GdvQAAAIfXGhRsbAQAAIugAgH3J431WA8DnACxl
+83g/zvJ4S+cA0MMAt5n0HZz4lX4hSDfA/9ov17xiaAQABQBEcIZs+IKEIC9R0Wg+dC0mEquJXcK9
+xrfx1RIu89cJ3BTsFpoQwYvqiPmLZ0q0SqJIFlJp5PsycrLhcg0KfIpbKI3KxFWhKrfUiOqJGo+0
+1LWP68zqeepXGRKMwo1bTIXNmKvbLYiWMVbNa8RtAmxL7b44WFATHBucfqwNdOl203Uv8sStY67v</filedata>
+        </attachment>
+        <attachment>
+          <filename>attach2</filename>
+          <filetype>PDF</filetype>
+          <filedata>iVBORw0KGgoAAAANSUhEUgAAAfMAAAF0CAIAAAC42Ed8AAAPX2lDQ1BJQ0MgUHJvZmlsZQAAeJyV
+V3k01G37v76zGvsyxtiH7PueLdsgawkRRcYYS4aZxmRLRQ9tSlkSkVJIWh5b5NFGUbK2oWiTioSH
+ShTN+wf1/M77nve853f9cZ/P/bmv674+13Xuc+5zAYjJ0dhsJgoAYmK5HO+1DpRNAYEU/CAggAAC
+CiBDo8ex7b28POC/2lw/IAAAj3VpbDZzRr8qJoT/27dZHmNmTq6T8d/jAABAmLMpIBAA0QEAYsQy
+tgMAYugy9gUAYgKXzQVAIgGASI+khQEgKQCgw/H1pgIglQAgHLGMrwGAcOgyvg8AwvH0CC4AMgiA
+E48Ni4oFwH8CwNmEMeLoAMI6ABAWFkePARA+BoCyiYlhhQGI9gGABp3N4QKIzgOAyqaAQMqy5KAL
+AKsRANzcP1ycEUCdOACl7B9O9QcAiQ/gYuY/3GdvQAAAIfXGhRsbAQAAIugAgH3J431WA8DnACxl
+83g/zvJ4S+cA0MMAt5n0HZz4lX4hSDfA/9ov17xiaAQABQBEcIZs+IKEIC9R0Wg+dC0mEquJXcK9
+xrfx1RIu89cJ3BTsFpoQwYvqiPmLZ0q0SqJIFlJp5PsycrLhcg0KfIpbKI3KxFWhKrfUiOqJGo+0
+1LWP68zqeepXGRKMwo1bTIXNmKvbLYiWMVbNa8RtAmxL7b44WFATHBucfqwNdOl203Uv8sStY67v</filedata>
+        </attachment>
+      </attachments>
+    </content>
+  </message>
+  <message folder="Inbox">
+    <subject>Security</subject>
+    <date>29/05/2017 00:18:17</date>
+    <sender>mailadsres2s@gmail.com</sender>
+    <recipients>
+      <recipient>tutorials2@hcl.com</recipient>
+      <recipient>
+        <address visibility="hidden">rec2@gmail.com</address>
+      </recipient>
+      <recipient>
+        <address visibility="hidden">rec3@hotmail.com</address>
+      </recipient>
+      <recipient>
+        <address visibility="hidden">rec4@gmail.com</address>
+      </recipient>
+    </recipients>
+    <content>
+      <text>&lt;Section xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xml:space="preserve" TextAlignment="Left" LineHeight="Auto" IsHyphenationEnabled="False" xml:lang="en-us" FlowDirection="LeftToRight" NumberSubstitution.CultureSource="User" NumberSubstitution.Substitution="AsCulture" FontFamily="Segoe UI" FontStyle="Normal" FontWeight="Normal" FontStretch="Normal" FontSize="12" Foreground="#FF000000" Typography.StandardLigatures="True" Typography.ContextualLigatures="True" Typography.DiscretionaryLigatures="False" Typography.HistoricalLigatures="False" Typography.AnnotationAlternates="0" Typography.ContextualAlternates="True" Typography.HistoricalForms="False" Typography.Kerning="True" Typography.CapitalSpacing="False" Typography.CaseSensitiveForms="False" Typography.StylisticSet1="False" Typography.StylisticSet2="False" Typography.StylisticSet3="False" Typography.StylisticSet4="False" Typography.StylisticSet5="False" Typography.StylisticSet6="False" Typography.StylisticSet7="False" Typography.StylisticSet8="False" Typography.StylisticSet9="False" Typography.StylisticSet10="False" Typography.StylisticSet11="False" Typography.StylisticSet12="False" Typography.StylisticSet13="False" Typography.StylisticSet14="False" Typography.StylisticSet15="False" Typography.StylisticSet16="False" Typography.StylisticSet17="False" Typography.StylisticSet18="False" Typography.StylisticSet19="False" Typography.StylisticSet20="False" Typography.Fraction="Normal" Typography.SlashedZero="False" Typography.MathematicalGreek="False" Typography.EastAsianExpertForms="False" Typography.Variants="Normal" Typography.Capitals="Normal" Typography.NumeralStyle="Normal" Typography.NumeralAlignment="Normal" Typography.EastAsianWidths="Normal" Typography.EastAsianLanguage="Normal" Typography.StandardSwashes="0" Typography.ContextualSwashes="0" Typography.StylisticAlternates="0"&gt;&lt;Paragraph&gt;&lt;Run FontSize="16"&gt;Nowadays you should not use plain SMTP protocol when using public SMTP servers but there is a some confusion regarding the available options.&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run FontFamily="Comic Sans MS"&gt;Two commons options are using&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run&gt;STARTTLS on port 25&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run&gt;SSL on port 465&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run&gt;The following definitions were taken from Wikipedia&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run&gt;STARTTLS is an extension to plain text communication protocols, which offers a way to upgrade a plain text connection to an encrypted (TLS or SSL) connection instead of using a separate port for encrypted communication.&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run&gt;Transport Layer Security (TLS) and its predecessor, Secure Sockets Layer (SSL), are cryptographic protocols that provide communication security over the Internet.TLS and SSL encrypt the segments of network connections above the Transport Layer, using asymmetric cryptography for key exchange, symmetric encryption for privacy, and message authentication codes for message integrity.&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run&gt;In addition you can force the following security checks (which are disabled by default)&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run&gt;When using a secured transport (STARTTLS or SSL) you can force validating the server's certificate by calling Email.setSSLCheckServerIdentity(true).&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run&gt;Enforce using STARTTLS by calling Email.setStartTLSRequired(true)&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/Section&gt;</text>
+      <attachments>
+        <attachment>
+          <filename>attach1</filename>
+          <filetype>PNG</filetype>
+          <filedata>iVBORw0KGgoAAAANSUhEUgAAAfMAAAF0CAIAAAC42Ed8AAAPX2lDQ1BJQ0MgUHJvZmlsZQAAeJyV
+V3k01G37v76zGvsyxtiH7PueLdsgawkRRcYYS4aZxmRLRQ9tSlkSkVJIWh5b5NFGUbK2oWiTioSH
+ShTN+wf1/M77nve853f9cZ/P/bmv674+13Xuc+5zAYjJ0dhsJgoAYmK5HO+1DpRNAYEU/CAggAAC
+CiBDo8ex7b28POC/2lw/IAAAj3VpbDZzRr8qJoT/27dZHmNmTq6T8d/jAABAmLMpIBAA0QEAYsQy
+tgMAYugy9gUAYgKXzQVAIgGASI+khQEgKQCgw/H1pgIglQAgHLGMrwGAcOgyvg8AwvH0CC4AMgiA
+E48Ni4oFwH8CwNmEMeLoAMI6ABAWFkePARA+BoCyiYlhhQGI9gGABp3N4QKIzgOAyqaAQMqy5KAL
+AKsRANzcP1ycEUCdOACl7B9O9QcAiQ/gYuY/3GdvQAAAIfXGhRsbAQAAIugAgH3J431WA8DnACxl
+83g/zvJ4S+cA0MMAt5n0HZz4lX4hSDfA/9ov17xiaAQABQBEcIZs+IKEIC9R0Wg+dC0mEquJXcK9
+xrfx1RIu89cJ3BTsFpoQwYvqiPmLZ0q0SqJIFlJp5PsycrLhcg0KfIpbKI3KxFWhKrfUiOqJGo+0
+1LWP68zqeepXGRKMwo1bTIXNmKvbLYiWMVbNa8RtAmxL7b44WFATHBucfqwNdOl203Uv8sStY67v</filedata>
+        </attachment>
+        <attachment>
+          <filename>attach2</filename>
+          <filetype>PDF</filetype>
+          <filedata>iVBORw0KGgoAAAANSUhEUgAAAfMAAAF0CAIAAAC42Ed8AAAPX2lDQ1BJQ0MgUHJvZmlsZQAAeJyV
+V3k01G37v76zGvsyxtiH7PueLdsgawkRRcYYS4aZxmRLRQ9tSlkSkVJIWh5b5NFGUbK2oWiTioSH
+ShTN+wf1/M77nve853f9cZ/P/bmv674+13Xuc+5zAYjJ0dhsJgoAYmK5HO+1DpRNAYEU/CAggAAC
+CiBDo8ex7b28POC/2lw/IAAAj3VpbDZzRr8qJoT/27dZHmNmTq6T8d/jAABAmLMpIBAA0QEAYsQy
+tgMAYugy9gUAYgKXzQVAIgGASI+khQEgKQCgw/H1pgIglQAgHLGMrwGAcOgyvg8AwvH0CC4AMgiA
+E48Ni4oFwH8CwNmEMeLoAMI6ABAWFkePARA+BoCyiYlhhQGI9gGABp3N4QKIzgOAyqaAQMqy5KAL
+AKsRANzcP1ycEUCdOACl7B9O9QcAiQ/gYuY/3GdvQAAAIfXGhRsbAQAAIugAgH3J431WA8DnACxl
+83g/zvJ4S+cA0MMAt5n0HZz4lX4hSDfA/9ov17xiaAQABQBEcIZs+IKEIC9R0Wg+dC0mEquJXcK9
+xrfx1RIu89cJ3BTsFpoQwYvqiPmLZ0q0SqJIFlJp5PsycrLhcg0KfIpbKI3KxFWhKrfUiOqJGo+0
+1LWP68zqeepXGRKMwo1bTIXNmKvbLYiWMVbNa8RtAmxL7b44WFATHBucfqwNdOl203Uv8sStY67v</filedata>
+        </attachment>
+      </attachments>
+    </content>
+  </message>
+  <message folder="Trash">
+    <subject>Handling Bounced Messages</subject>
+    <date>29/05/2017 00:22:31</date>
+    <sender>mailadsress@hotmail.com</sender>
+    <recipients>
+      <recipient>Tutorial3@hcl.co</recipient>
+      <recipient>
+        <address visibility="hidden">rec2@gmail.com</address>
+      </recipient>
+      <recipient>
+        <address visibility="hidden">rec3@hotmail.com</address>
+      </recipient>
+      <recipient>
+        <address visibility="hidden">rec4@gmail.com</address>
+      </recipient>
+    </recipients>
+    <content>
+      <text>&lt;Section xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xml:space="preserve" TextAlignment="Left" LineHeight="Auto" IsHyphenationEnabled="False" xml:lang="en-us" FlowDirection="LeftToRight" NumberSubstitution.CultureSource="User" NumberSubstitution.Substitution="AsCulture" FontFamily="Segoe UI" FontStyle="Normal" FontWeight="Normal" FontStretch="Normal" FontSize="12" Foreground="#FF000000" Typography.StandardLigatures="True" Typography.ContextualLigatures="True" Typography.DiscretionaryLigatures="False" Typography.HistoricalLigatures="False" Typography.AnnotationAlternates="0" Typography.ContextualAlternates="True" Typography.HistoricalForms="False" Typography.Kerning="True" Typography.CapitalSpacing="False" Typography.CaseSensitiveForms="False" Typography.StylisticSet1="False" Typography.StylisticSet2="False" Typography.StylisticSet3="False" Typography.StylisticSet4="False" Typography.StylisticSet5="False" Typography.StylisticSet6="False" Typography.StylisticSet7="False" Typography.StylisticSet8="False" Typography.StylisticSet9="False" Typography.StylisticSet10="False" Typography.StylisticSet11="False" Typography.StylisticSet12="False" Typography.StylisticSet13="False" Typography.StylisticSet14="False" Typography.StylisticSet15="False" Typography.StylisticSet16="False" Typography.StylisticSet17="False" Typography.StylisticSet18="False" Typography.StylisticSet19="False" Typography.StylisticSet20="False" Typography.Fraction="Normal" Typography.SlashedZero="False" Typography.MathematicalGreek="False" Typography.EastAsianExpertForms="False" Typography.Variants="Normal" Typography.Capitals="Normal" Typography.NumeralStyle="Normal" Typography.NumeralAlignment="Normal" Typography.EastAsianWidths="Normal" Typography.EastAsianLanguage="Normal" Typography.StandardSwashes="0" Typography.ContextualSwashes="0" Typography.StylisticAlternates="0"&gt;&lt;Paragraph&gt;&lt;Run FontSize="20"&gt;Normally&lt;/Run&gt;&lt;Run&gt;, messages which cannot be delivered to a recipient are returned to the sender (specified with the &lt;/Run&gt;&lt;Run Foreground="#FFFF0000"&gt;from &lt;/Run&gt;&lt;Run&gt;property). However, in some cases, you'll want these to be sent to a different address. To do this, simply call the setBounceAddress(emailAddressString) method before sending your email.&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run&gt;&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run&gt;Technical notes: When SMTP servers cannot deliver mail, they do not pay any attention to the contents of the message to determine where the error notification should be sent. Rather, they refer to the SMTP "envelope sender" value. JavaMail sets this value according to the value of the &lt;/Run&gt;&lt;Run Foreground="#FFFF4500"&gt;mail.smtp.from &lt;/Run&gt;&lt;Run&gt;property on the JavaMail Session. (Commons Email initializes the JavaMail Session &lt;/Run&gt;&lt;Run Foreground="#FFFF0000"&gt;using System.getProperties()) &lt;/Run&gt;&lt;Run&gt;If this property has not been set, then JavaMail uses the "from" address. If your email bean has the bounceAddress property set, then Commons Email uses it to set the value of mail.smtp.from when the Session is initialized, overriding any other value which might have been set.&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run&gt;&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run&gt;Note: This is the only way to control the handling of bounced email. Specifically, the "Errors-to:" SMTP header is deprecated and cannot be trusted to control how a bounced message will be handled. Also note that it is considered bad practice to send email with an untrusted "from" address unless you also set the bounce address. If your application allows users to enter an address which is used as the "from" address on an email, you should be sure to set the bounce address to a known good address.&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/Section&gt;</text>
+      <attachments>
+        <attachment>
+          <filename>attach1</filename>
+          <filetype>PNG</filetype>
+          <filedata>iVBORw0KGgoAAAANSUhEUgAAAfMAAAF0CAIAAAC42Ed8AAAPX2lDQ1BJQ0MgUHJvZmlsZQAAeJyV
+V3k01G37v76zGvsyxtiH7PueLdsgawkRRcYYS4aZxmRLRQ9tSlkSkVJIWh5b5NFGUbK2oWiTioSH
+ShTN+wf1/M77nve853f9cZ/P/bmv674+13Xuc+5zAYjJ0dhsJgoAYmK5HO+1DpRNAYEU/CAggAAC
+CiBDo8ex7b28POC/2lw/IAAAj3VpbDZzRr8qJoT/27dZHmNmTq6T8d/jAABAmLMpIBAA0QEAYsQy
+tgMAYugy9gUAYgKXzQVAIgGASI+khQEgKQCgw/H1pgIglQAgHLGMrwGAcOgyvg8AwvH0CC4AMgiA
+E48Ni4oFwH8CwNmEMeLoAMI6ABAWFkePARA+BoCyiYlhhQGI9gGABp3N4QKIzgOAyqaAQMqy5KAL
+AKsRANzcP1ycEUCdOACl7B9O9QcAiQ/gYuY/3GdvQAAAIfXGhRsbAQAAIugAgH3J431WA8DnACxl
+83g/zvJ4S+cA0MMAt5n0HZz4lX4hSDfA/9ov17xiaAQABQBEcIZs+IKEIC9R0Wg+dC0mEquJXcK9
+xrfx1RIu89cJ3BTsFpoQwYvqiPmLZ0q0SqJIFlJp5PsycrLhcg0KfIpbKI3KxFWhKrfUiOqJGo+0
+1LWP68zqeepXGRKMwo1bTIXNmKvbLYiWMVbNa8RtAmxL7b44WFATHBucfqwNdOl203Uv8sStY67v</filedata>
+        </attachment>
+        <attachment>
+          <filename>attach2</filename>
+          <filetype>PDF</filetype>
+          <filedata>iVBORw0KGgoAAAANSUhEUgAAAfMAAAF0CAIAAAC42Ed8AAAPX2lDQ1BJQ0MgUHJvZmlsZQAAeJyV
+V3k01G37v76zGvsyxtiH7PueLdsgawkRRcYYS4aZxmRLRQ9tSlkSkVJIWh5b5NFGUbK2oWiTioSH
+ShTN+wf1/M77nve853f9cZ/P/bmv674+13Xuc+5zAYjJ0dhsJgoAYmK5HO+1DpRNAYEU/CAggAAC
+CiBDo8ex7b28POC/2lw/IAAAj3VpbDZzRr8qJoT/27dZHmNmTq6T8d/jAABAmLMpIBAA0QEAYsQy
+tgMAYugy9gUAYgKXzQVAIgGASI+khQEgKQCgw/H1pgIglQAgHLGMrwGAcOgyvg8AwvH0CC4AMgiA
+E48Ni4oFwH8CwNmEMeLoAMI6ABAWFkePARA+BoCyiYlhhQGI9gGABp3N4QKIzgOAyqaAQMqy5KAL
+AKsRANzcP1ycEUCdOACl7B9O9QcAiQ/gYuY/3GdvQAAAIfXGhRsbAQAAIugAgH3J431WA8DnACxl
+83g/zvJ4S+cA0MMAt5n0HZz4lX4hSDfA/9ov17xiaAQABQBEcIZs+IKEIC9R0Wg+dC0mEquJXcK9
+xrfx1RIu89cJ3BTsFpoQwYvqiPmLZ0q0SqJIFlJp5PsycrLhcg0KfIpbKI3KxFWhKrfUiOqJGo+0
+1LWP68zqeepXGRKMwo1bTIXNmKvbLYiWMVbNa8RtAmxL7b44WFATHBucfqwNdOl203Uv8sStY67v</filedata>
+        </attachment>
+      </attachments>
+    </content>
+  </message>
+  <message folder="Draft">
+    <subject>The mail or post is a system for physically transporting documents and other small packages;</subject>
+    <date>29/05/2017 00:24:11</date>
+    <sender>mailadsress@hotmail.com</sender>
+    <recipients>
+      <recipient>Tutorial3@hcl.co</recipient>
+      <recipient>
+        <address visibility="hidden">rec2@gmail.com</address>
+      </recipient>
+      <recipient>
+        <address visibility="hidden">rec3@hotmail.com</address>
+      </recipient>
+      <recipient>
+        <address visibility="hidden">rec4@gmail.com</address>
+      </recipient>
+    </recipients>
+    <content>
+      <text>&lt;Section xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xml:space="preserve" TextAlignment="Left" LineHeight="Auto" IsHyphenationEnabled="False" xml:lang="en-us" FlowDirection="LeftToRight" NumberSubstitution.CultureSource="User" NumberSubstitution.Substitution="AsCulture" FontFamily="Segoe UI" FontStyle="Normal" FontWeight="Normal" FontStretch="Normal" FontSize="12" Foreground="#FF000000" Typography.StandardLigatures="True" Typography.ContextualLigatures="True" Typography.DiscretionaryLigatures="False" Typography.HistoricalLigatures="False" Typography.AnnotationAlternates="0" Typography.ContextualAlternates="True" Typography.HistoricalForms="False" Typography.Kerning="True" Typography.CapitalSpacing="False" Typography.CaseSensitiveForms="False" Typography.StylisticSet1="False" Typography.StylisticSet2="False" Typography.StylisticSet3="False" Typography.StylisticSet4="False" Typography.StylisticSet5="False" Typography.StylisticSet6="False" Typography.StylisticSet7="False" Typography.StylisticSet8="False" Typography.StylisticSet9="False" Typography.StylisticSet10="False" Typography.StylisticSet11="False" Typography.StylisticSet12="False" Typography.StylisticSet13="False" Typography.StylisticSet14="False" Typography.StylisticSet15="False" Typography.StylisticSet16="False" Typography.StylisticSet17="False" Typography.StylisticSet18="False" Typography.StylisticSet19="False" Typography.StylisticSet20="False" Typography.Fraction="Normal" Typography.SlashedZero="False" Typography.MathematicalGreek="False" Typography.EastAsianExpertForms="False" Typography.Variants="Normal" Typography.Capitals="Normal" Typography.NumeralStyle="Normal" Typography.NumeralAlignment="Normal" Typography.EastAsianWidths="Normal" Typography.EastAsianLanguage="Normal" Typography.StandardSwashes="0" Typography.ContextualSwashes="0" Typography.StylisticAlternates="0"&gt;&lt;Paragraph&gt;&lt;Run FontFamily="Consolas"&gt;The mail or post is a system for physically transporting documents and other small packages; or, the postcards, letters, and parcels themselves.[1] A postal service can be private or public, though many governments place restrictions on private systems. Since the mid-19th century national postal systems have generally been established as government monopolies with a fee on the article prepaid. Proof of payment is often in the form of adhesive postage stamps, but postage meters are also used for bulk mailing. Modern private postal systems are typically distinguished from national postal agencies by the names "courier" or "delivery service".&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run FontFamily="Consolas"&gt;&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run FontFamily="Consolas" Foreground="#FFB22222"&gt;Postal authorities often have functions other than transporting letters. In some countries, a postal, telegraph and telephone (PTT) service oversees the postal system, in addition to telephone and telegraph systems. Some countries' postal systems allow for savings accounts and handle applications for passports.&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run FontFamily="Consolas"&gt;&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run FontFamily="Consolas" Foreground="#FF6A5ACD"&gt;The Universal Postal Union (UPU), established in 1874, includes 192 member countries and sets the rules for international mail exchanges.&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/Section&gt;</text>
+      <attachments>
+        <attachment>
+          <filename>attach1</filename>
+          <filetype>PNG</filetype>
+          <filedata>iVBORw0KGgoAAAANSUhEUgAAAfMAAAF0CAIAAAC42Ed8AAAPX2lDQ1BJQ0MgUHJvZmlsZQAAeJyV
+V3k01G37v76zGvsyxtiH7PueLdsgawkRRcYYS4aZxmRLRQ9tSlkSkVJIWh5b5NFGUbK2oWiTioSH
+ShTN+wf1/M77nve853f9cZ/P/bmv674+13Xuc+5zAYjJ0dhsJgoAYmK5HO+1DpRNAYEU/CAggAAC
+CiBDo8ex7b28POC/2lw/IAAAj3VpbDZzRr8qJoT/27dZHmNmTq6T8d/jAABAmLMpIBAA0QEAYsQy
+tgMAYugy9gUAYgKXzQVAIgGASI+khQEgKQCgw/H1pgIglQAgHLGMrwGAcOgyvg8AwvH0CC4AMgiA
+E48Ni4oFwH8CwNmEMeLoAMI6ABAWFkePARA+BoCyiYlhhQGI9gGABp3N4QKIzgOAyqaAQMqy5KAL
+AKsRANzcP1ycEUCdOACl7B9O9QcAiQ/gYuY/3GdvQAAAIfXGhRsbAQAAIugAgH3J431WA8DnACxl
+83g/zvJ4S+cA0MMAt5n0HZz4lX4hSDfA/9ov17xiaAQABQBEcIZs+IKEIC9R0Wg+dC0mEquJXcK9
+xrfx1RIu89cJ3BTsFpoQwYvqiPmLZ0q0SqJIFlJp5PsycrLhcg0KfIpbKI3KxFWhKrfUiOqJGo+0
+1LWP68zqeepXGRKMwo1bTIXNmKvbLYiWMVbNa8RtAmxL7b44WFATHBucfqwNdOl203Uv8sStY67v</filedata>
+        </attachment>
+        <attachment>
+          <filename>attach2</filename>
+          <filetype>PDF</filetype>
+          <filedata>iVBORw0KGgoAAAANSUhEUgAAAfMAAAF0CAIAAAC42Ed8AAAPX2lDQ1BJQ0MgUHJvZmlsZQAAeJyV
+V3k01G37v76zGvsyxtiH7PueLdsgawkRRcYYS4aZxmRLRQ9tSlkSkVJIWh5b5NFGUbK2oWiTioSH
+ShTN+wf1/M77nve853f9cZ/P/bmv674+13Xuc+5zAYjJ0dhsJgoAYmK5HO+1DpRNAYEU/CAggAAC
+CiBDo8ex7b28POC/2lw/IAAAj3VpbDZzRr8qJoT/27dZHmNmTq6T8d/jAABAmLMpIBAA0QEAYsQy
+tgMAYugy9gUAYgKXzQVAIgGASI+khQEgKQCgw/H1pgIglQAgHLGMrwGAcOgyvg8AwvH0CC4AMgiA
+E48Ni4oFwH8CwNmEMeLoAMI6ABAWFkePARA+BoCyiYlhhQGI9gGABp3N4QKIzgOAyqaAQMqy5KAL
+AKsRANzcP1ycEUCdOACl7B9O9QcAiQ/gYuY/3GdvQAAAIfXGhRsbAQAAIugAgH3J431WA8DnACxl
+83g/zvJ4S+cA0MMAt5n0HZz4lX4hSDfA/9ov17xiaAQABQBEcIZs+IKEIC9R0Wg+dC0mEquJXcK9
+xrfx1RIu89cJ3BTsFpoQwYvqiPmLZ0q0SqJIFlJp5PsycrLhcg0KfIpbKI3KxFWhKrfUiOqJGo+0
+1LWP68zqeepXGRKMwo1bTIXNmKvbLYiWMVbNa8RtAmxL7b44WFATHBucfqwNdOl203Uv8sStY67v</filedata>
+        </attachment>
+      </attachments>
+    </content>
+  </message>
+  <message folder="Inbox">
+    <subject> It was spelled that way until the 17th century, and is distinct from the word male. </subject>
+    <date>29/05/2017 00:25:50</date>
+    <sender>mailadsress@hotmail.com</sender>
+    <recipients>
+      <recipient>Tutorial3@hcl.co</recipient>
+      <recipient>
+        <address visibility="hidden">rec2@gmail.com</address>
+      </recipient>
+      <recipient>
+        <address visibility="hidden">rec3@hotmail.com</address>
+      </recipient>
+      <recipient>
+        <address visibility="hidden">rec4@gmail.com</address>
+      </recipient>
+    </recipients>
+    <content>
+      <text>&lt;Section xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xml:space="preserve" TextAlignment="Left" LineHeight="Auto" IsHyphenationEnabled="False" xml:lang="en-us" FlowDirection="LeftToRight" NumberSubstitution.CultureSource="User" NumberSubstitution.Substitution="AsCulture" FontFamily="Segoe UI" FontStyle="Normal" FontWeight="Normal" FontStretch="Normal" FontSize="12" Foreground="#FF000000" Typography.StandardLigatures="True" Typography.ContextualLigatures="True" Typography.DiscretionaryLigatures="False" Typography.HistoricalLigatures="False" Typography.AnnotationAlternates="0" Typography.ContextualAlternates="True" Typography.HistoricalForms="False" Typography.Kerning="True" Typography.CapitalSpacing="False" Typography.CaseSensitiveForms="False" Typography.StylisticSet1="False" Typography.StylisticSet2="False" Typography.StylisticSet3="False" Typography.StylisticSet4="False" Typography.StylisticSet5="False" Typography.StylisticSet6="False" Typography.StylisticSet7="False" Typography.StylisticSet8="False" Typography.StylisticSet9="False" Typography.StylisticSet10="False" Typography.StylisticSet11="False" Typography.StylisticSet12="False" Typography.StylisticSet13="False" Typography.StylisticSet14="False" Typography.StylisticSet15="False" Typography.StylisticSet16="False" Typography.StylisticSet17="False" Typography.StylisticSet18="False" Typography.StylisticSet19="False" Typography.StylisticSet20="False" Typography.Fraction="Normal" Typography.SlashedZero="False" Typography.MathematicalGreek="False" Typography.EastAsianExpertForms="False" Typography.Variants="Normal" Typography.Capitals="Normal" Typography.NumeralStyle="Normal" Typography.NumeralAlignment="Normal" Typography.EastAsianWidths="Normal" Typography.EastAsianLanguage="Normal" Typography.StandardSwashes="0" Typography.ContextualSwashes="0" Typography.StylisticAlternates="0"&gt;&lt;Paragraph&gt;&lt;Run FontFamily="Calibri" FontSize="14" Foreground="#FF800000"&gt;The first credible claim for the development of a real postal system comes from Ancient Persia, but the point of invention remains in question. The best documented claim (Xenophon) attributes the invention to the Persian King Cyrus the Great (550 BC), who mandated that every province in his kingdom would organize reception and delivery of post to each of its citizens. He also negotiated with neighbouring countries to do the same and had roads built from the city of Post in Western Iran all the way up to the city of Hakha in the East. Other writers credit his successor Darius I of Persia (521 BC). Other sources claim much earlier dates for an Assyrian postal system, with credit given to Hammurabi (1700 BC) and Sargon II (722 BC). Mail may not have been the primary mission of this postal service, however. The role of the system as an intelligence gathering apparatus is well documented, and the service was (later) called angariae, a term that in time came to indicate a tax system. The Old Testament (Esther, VIII) makes mention of this system: Ahasuerus, king of Medes, used couriers for communicating his decisions.&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run FontFamily="Calibri" FontSize="14"&gt;&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run FontFamily="Calibri" FontSize="14"&gt;The Persian system worked on stations (called Chapar-Khaneh), where the message carrier (called Chapar) would ride to the next post, whereupon he would swap his horse with a fresh one, for maximum performance and delivery speed. Herodotus described the system in this way: "It is said that as many days as there are in the whole journey, so many are the men and horses that stand along the road, each horse and man at the interval of a day's journey; and these are stayed neither by snow nor rain nor heat nor darkness from accomplishing their appointed course with all speed".[5] The verse prominently features on New York's James Farley Post Office, although it has been slightly rephrased to Neither snow nor rain nor heat nor gloom of night stays these couriers from the swift completion of their appointed rounds.&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/Section&gt;</text>
+      <attachments>
+        <attachment>
+          <filename>attach1</filename>
+          <filetype>PNG</filetype>
+          <filedata>iVBORw0KGgoAAAANSUhEUgAAAfMAAAF0CAIAAAC42Ed8AAAPX2lDQ1BJQ0MgUHJvZmlsZQAAeJyV
+V3k01G37v76zGvsyxtiH7PueLdsgawkRRcYYS4aZxmRLRQ9tSlkSkVJIWh5b5NFGUbK2oWiTioSH
+ShTN+wf1/M77nve853f9cZ/P/bmv674+13Xuc+5zAYjJ0dhsJgoAYmK5HO+1DpRNAYEU/CAggAAC
+CiBDo8ex7b28POC/2lw/IAAAj3VpbDZzRr8qJoT/27dZHmNmTq6T8d/jAABAmLMpIBAA0QEAYsQy
+tgMAYugy9gUAYgKXzQVAIgGASI+khQEgKQCgw/H1pgIglQAgHLGMrwGAcOgyvg8AwvH0CC4AMgiA
+E48Ni4oFwH8CwNmEMeLoAMI6ABAWFkePARA+BoCyiYlhhQGI9gGABp3N4QKIzgOAyqaAQMqy5KAL
+AKsRANzcP1ycEUCdOACl7B9O9QcAiQ/gYuY/3GdvQAAAIfXGhRsbAQAAIugAgH3J431WA8DnACxl
+83g/zvJ4S+cA0MMAt5n0HZz4lX4hSDfA/9ov17xiaAQABQBEcIZs+IKEIC9R0Wg+dC0mEquJXcK9
+xrfx1RIu89cJ3BTsFpoQwYvqiPmLZ0q0SqJIFlJp5PsycrLhcg0KfIpbKI3KxFWhKrfUiOqJGo+0
+1LWP68zqeepXGRKMwo1bTIXNmKvbLYiWMVbNa8RtAmxL7b44WFATHBucfqwNdOl203Uv8sStY67v</filedata>
+        </attachment>
+        <attachment>
+          <filename>attach2</filename>
+          <filetype>PDF</filetype>
+          <filedata>iVBORw0KGgoAAAANSUhEUgAAAfMAAAF0CAIAAAC42Ed8AAAPX2lDQ1BJQ0MgUHJvZmlsZQAAeJyV
+V3k01G37v76zGvsyxtiH7PueLdsgawkRRcYYS4aZxmRLRQ9tSlkSkVJIWh5b5NFGUbK2oWiTioSH
+ShTN+wf1/M77nve853f9cZ/P/bmv674+13Xuc+5zAYjJ0dhsJgoAYmK5HO+1DpRNAYEU/CAggAAC
+CiBDo8ex7b28POC/2lw/IAAAj3VpbDZzRr8qJoT/27dZHmNmTq6T8d/jAABAmLMpIBAA0QEAYsQy
+tgMAYugy9gUAYgKXzQVAIgGASI+khQEgKQCgw/H1pgIglQAgHLGMrwGAcOgyvg8AwvH0CC4AMgiA
+E48Ni4oFwH8CwNmEMeLoAMI6ABAWFkePARA+BoCyiYlhhQGI9gGABp3N4QKIzgOAyqaAQMqy5KAL
+AKsRANzcP1ycEUCdOACl7B9O9QcAiQ/gYuY/3GdvQAAAIfXGhRsbAQAAIugAgH3J431WA8DnACxl
+83g/zvJ4S+cA0MMAt5n0HZz4lX4hSDfA/9ov17xiaAQABQBEcIZs+IKEIC9R0Wg+dC0mEquJXcK9
+xrfx1RIu89cJ3BTsFpoQwYvqiPmLZ0q0SqJIFlJp5PsycrLhcg0KfIpbKI3KxFWhKrfUiOqJGo+0
+1LWP68zqeepXGRKMwo1bTIXNmKvbLYiWMVbNa8RtAmxL7b44WFATHBucfqwNdOl203Uv8sStY67v</filedata>
+        </attachment>
+      </attachments>
+    </content>
+  </message>
+  <message folder="Inbox">
+    <subject>Rise of electronic correspondence</subject>
+    <date>29/05/2017 01:22:38</date>
+    <sender>mailadsress@hotmail.com</sender>
+    <recipients>
+      <recipient>wikien@wiki.com</recipient>
+      <recipient>
+        <address visibility="hidden">rec2@gmail.com</address>
+      </recipient>
+      <recipient>
+        <address visibility="hidden">rec3@hotmail.com</address>
+      </recipient>
+      <recipient>
+        <address visibility="hidden">rec4@gmail.com</address>
+      </recipient>
+    </recipients>
+    <content>
+      <text>&lt;Section xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xml:space="preserve" TextAlignment="Left" LineHeight="Auto" IsHyphenationEnabled="False" xml:lang="en-us" FlowDirection="LeftToRight" NumberSubstitution.CultureSource="User" NumberSubstitution.Substitution="AsCulture" FontFamily="Segoe UI" FontStyle="Normal" FontWeight="Normal" FontStretch="Normal" FontSize="12" Foreground="#FF000000" Typography.StandardLigatures="True" Typography.ContextualLigatures="True" Typography.DiscretionaryLigatures="False" Typography.HistoricalLigatures="False" Typography.AnnotationAlternates="0" Typography.ContextualAlternates="True" Typography.HistoricalForms="False" Typography.Kerning="True" Typography.CapitalSpacing="False" Typography.CaseSensitiveForms="False" Typography.StylisticSet1="False" Typography.StylisticSet2="False" Typography.StylisticSet3="False" Typography.StylisticSet4="False" Typography.StylisticSet5="False" Typography.StylisticSet6="False" Typography.StylisticSet7="False" Typography.StylisticSet8="False" Typography.StylisticSet9="False" Typography.StylisticSet10="False" Typography.StylisticSet11="False" Typography.StylisticSet12="False" Typography.StylisticSet13="False" Typography.StylisticSet14="False" Typography.StylisticSet15="False" Typography.StylisticSet16="False" Typography.StylisticSet17="False" Typography.StylisticSet18="False" Typography.StylisticSet19="False" Typography.StylisticSet20="False" Typography.Fraction="Normal" Typography.SlashedZero="False" Typography.MathematicalGreek="False" Typography.EastAsianExpertForms="False" Typography.Variants="Normal" Typography.Capitals="Normal" Typography.NumeralStyle="Normal" Typography.NumeralAlignment="Normal" Typography.EastAsianWidths="Normal" Typography.EastAsianLanguage="Normal" Typography.StandardSwashes="0" Typography.ContextualSwashes="0" Typography.StylisticAlternates="0"&gt;&lt;Paragraph&gt;&lt;Run FontFamily="Trebuchet MS" FontSize="14"&gt;Modern alternatives, such as the telegraph, telephone, telex, facsimile, and email, have reduced the attractiveness of paper mail for many applications. These modern alternatives have some advantages: in addition to their speed, they may be more secure, e.g., because the general public can not learn the address of the sender or recipient from the envelope, and occasionally traditional items of mail may fail to arrive, e.g. due to vandalism to mailboxes, unfriendly pets, and adverse weather conditions. Mail carriers due to perceived hazards or inconveniences, may refuse, officially or otherwise, to deliver mail to a particular address (for instance, if there is no clear path to the door or mailbox). On the other hand, traditional mail avoids the possibility of computer malfunctions and malware, and the recipient does not need to print it out if they wish to have a paper copy, though scanning is required to make a digital copy.&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run FontFamily="Trebuchet MS" FontSize="14"&gt;&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run FontFamily="Trebuchet MS" FontSize="14"&gt;Physical mail is still widely used in business and personal communications for such reasons as legal requirements for signatures, requirements of etiquette, and the requirement to enclose small physical objects.&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run FontFamily="Trebuchet MS" FontSize="14"&gt;&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run FontFamily="Trebuchet MS" FontSize="14"&gt;Since the advent of email, which is almost always much faster, the postal system has come to be referred to in Internet slang by the retronym "snail mail". Occasionally, the term "white mail" or "the PaperNet" has also been used as a neutral term for postal mail.&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run FontFamily="Trebuchet MS" FontSize="14"&gt;&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run FontFamily="Trebuchet MS" FontSize="14"&gt;Mainly during the 20th century, experimentation with hybrid mail has combined electronic and paper delivery. Electronic mechanisms include telegram, telex, facsimile (fax), email, and short message service (SMS). There have been methods which have combined mail and some of these newer methods, such as INTELPOST, which combined facsimile transmission with overnight delivery.[22][23] These vehicles commonly use a mechanical or electro-mechanical standardised writing (typing), that on the one hand makes for more efficient communication, while on the other hand makes impossible characteristics and practices that traditionally were in conventional mail, such as calligraphy.&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run FontFamily="Trebuchet MS" FontSize="14"&gt;&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run FontFamily="Trebuchet MS" FontSize="14"&gt;This epoch[when?] is undoubtedly mainly dominated by mechanical writing, with a general use of no more of half a dozen standard typographic fonts from standard keyboards. However, the increased use of typewritten or computer-printed letters for personal communication and the advent of email have sparked renewed interest in calligraphy, as a letter has become more of a "special event". Long before e-mail and computer-printed letters, however, decorated envelopes, rubber stamps and artistamps formed part of the medium of mail art.[citation needed]&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/Section&gt;</text>
+      <attachments>
+        <attachment>
+          <filename>attach1</filename>
+          <filetype>PNG</filetype>
+          <filedata>iVBORw0KGgoAAAANSUhEUgAAAfMAAAF0CAIAAAC42Ed8AAAPX2lDQ1BJQ0MgUHJvZmlsZQAAeJyV
+V3k01G37v76zGvsyxtiH7PueLdsgawkRRcYYS4aZxmRLRQ9tSlkSkVJIWh5b5NFGUbK2oWiTioSH
+ShTN+wf1/M77nve853f9cZ/P/bmv674+13Xuc+5zAYjJ0dhsJgoAYmK5HO+1DpRNAYEU/CAggAAC
+CiBDo8ex7b28POC/2lw/IAAAj3VpbDZzRr8qJoT/27dZHmNmTq6T8d/jAABAmLMpIBAA0QEAYsQy
+tgMAYugy9gUAYgKXzQVAIgGASI+khQEgKQCgw/H1pgIglQAgHLGMrwGAcOgyvg8AwvH0CC4AMgiA
+E48Ni4oFwH8CwNmEMeLoAMI6ABAWFkePARA+BoCyiYlhhQGI9gGABp3N4QKIzgOAyqaAQMqy5KAL
+AKsRANzcP1ycEUCdOACl7B9O9QcAiQ/gYuY/3GdvQAAAIfXGhRsbAQAAIugAgH3J431WA8DnACxl
+83g/zvJ4S+cA0MMAt5n0HZz4lX4hSDfA/9ov17xiaAQABQBEcIZs+IKEIC9R0Wg+dC0mEquJXcK9
+xrfx1RIu89cJ3BTsFpoQwYvqiPmLZ0q0SqJIFlJp5PsycrLhcg0KfIpbKI3KxFWhKrfUiOqJGo+0
+1LWP68zqeepXGRKMwo1bTIXNmKvbLYiWMVbNa8RtAmxL7b44WFATHBucfqwNdOl203Uv8sStY67v</filedata>
+        </attachment>
+        <attachment>
+          <filename>attach2</filename>
+          <filetype>PDF</filetype>
+          <filedata>iVBORw0KGgoAAAANSUhEUgAAAfMAAAF0CAIAAAC42Ed8AAAPX2lDQ1BJQ0MgUHJvZmlsZQAAeJyV
+V3k01G37v76zGvsyxtiH7PueLdsgawkRRcYYS4aZxmRLRQ9tSlkSkVJIWh5b5NFGUbK2oWiTioSH
+ShTN+wf1/M77nve853f9cZ/P/bmv674+13Xuc+5zAYjJ0dhsJgoAYmK5HO+1DpRNAYEU/CAggAAC
+CiBDo8ex7b28POC/2lw/IAAAj3VpbDZzRr8qJoT/27dZHmNmTq6T8d/jAABAmLMpIBAA0QEAYsQy
+tgMAYugy9gUAYgKXzQVAIgGASI+khQEgKQCgw/H1pgIglQAgHLGMrwGAcOgyvg8AwvH0CC4AMgiA
+E48Ni4oFwH8CwNmEMeLoAMI6ABAWFkePARA+BoCyiYlhhQGI9gGABp3N4QKIzgOAyqaAQMqy5KAL
+AKsRANzcP1ycEUCdOACl7B9O9QcAiQ/gYuY/3GdvQAAAIfXGhRsbAQAAIugAgH3J431WA8DnACxl
+83g/zvJ4S+cA0MMAt5n0HZz4lX4hSDfA/9ov17xiaAQABQBEcIZs+IKEIC9R0Wg+dC0mEquJXcK9
+xrfx1RIu89cJ3BTsFpoQwYvqiPmLZ0q0SqJIFlJp5PsycrLhcg0KfIpbKI3KxFWhKrfUiOqJGo+0
+1LWP68zqeepXGRKMwo1bTIXNmKvbLYiWMVbNa8RtAmxL7b44WFATHBucfqwNdOl203Uv8sStY67v</filedata>
+        </attachment>
+      </attachments>
+    </content>
+  </message>
+  <message folder="Inbox">
+    <subject>Types of mail[edit]</subject>
+    <date>29/05/2017 01:23:36</date>
+    <sender>mailadsress@hotmail.com</sender>
+    <recipients>
+      <recipient>wikien@wiki.com</recipient>
+      <recipient>
+        <address visibility="hidden">rec2@gmail.com</address>
+      </recipient>
+      <recipient>
+        <address visibility="hidden">rec3@hotmail.com</address>
+      </recipient>
+      <recipient>
+        <address visibility="hidden">rec4@gmail.com</address>
+      </recipient>
+    </recipients>
+    <content>
+      <text>&lt;Section xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xml:space="preserve" TextAlignment="Left" LineHeight="Auto" IsHyphenationEnabled="False" xml:lang="en-us" FlowDirection="LeftToRight" NumberSubstitution.CultureSource="User" NumberSubstitution.Substitution="AsCulture" FontFamily="Segoe UI" FontStyle="Normal" FontWeight="Normal" FontStretch="Normal" FontSize="12" Foreground="#FF000000" Typography.StandardLigatures="True" Typography.ContextualLigatures="True" Typography.DiscretionaryLigatures="False" Typography.HistoricalLigatures="False" Typography.AnnotationAlternates="0" Typography.ContextualAlternates="True" Typography.HistoricalForms="False" Typography.Kerning="True" Typography.CapitalSpacing="False" Typography.CaseSensitiveForms="False" Typography.StylisticSet1="False" Typography.StylisticSet2="False" Typography.StylisticSet3="False" Typography.StylisticSet4="False" Typography.StylisticSet5="False" Typography.StylisticSet6="False" Typography.StylisticSet7="False" Typography.StylisticSet8="False" Typography.StylisticSet9="False" Typography.StylisticSet10="False" Typography.StylisticSet11="False" Typography.StylisticSet12="False" Typography.StylisticSet13="False" Typography.StylisticSet14="False" Typography.StylisticSet15="False" Typography.StylisticSet16="False" Typography.StylisticSet17="False" Typography.StylisticSet18="False" Typography.StylisticSet19="False" Typography.StylisticSet20="False" Typography.Fraction="Normal" Typography.SlashedZero="False" Typography.MathematicalGreek="False" Typography.EastAsianExpertForms="False" Typography.Variants="Normal" Typography.Capitals="Normal" Typography.NumeralStyle="Normal" Typography.NumeralAlignment="Normal" Typography.EastAsianWidths="Normal" Typography.EastAsianLanguage="Normal" Typography.StandardSwashes="0" Typography.ContextualSwashes="0" Typography.StylisticAlternates="0"&gt;&lt;Paragraph&gt;&lt;Run FontWeight="Bold" FontSize="16" TextDecorations="Underline"&gt;Letters&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run&gt;&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run FontStyle="Italic"&gt;Pillar boxes on the island of Madeira, Portugal. (1st class mail in blue and 2nd class in red)&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run&gt;Letter-sized mail constitutes the bulk of the contents sent through most postal services. These are usually documents printed on A4 (210×297 mm), Letter-sized (8.5×11 inches), or smaller paper and placed in envelopes.&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run&gt;&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run&gt;Handwritten correspondence, while once a major means of communications between distant people, is now used less frequently[citation needed] due to the advent of more immediate means of communication, such as the telephone or e-mail. Traditional letters, however, are often considered to harken back to a "simpler time" and are still used when someone wishes to be deliberate and thoughtful about his or her communication. An example would be a letter of sympathy to a bereaved person.&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run&gt;&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run&gt;Bills and invoices are often sent through the mail, like regular billing correspondence from utility companies and other service providers. These letters often contain a self-addressed envelope that allows the receiver to remit payment back to the company easily. While still very common, many people now opt to use online bill payment services, which eliminate the need to receive bills through the mail. Paperwork for the confirmation of large financial transactions is often sent through the mail. Many tax documents are as well.&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run&gt;&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run&gt;New credit cards and their corresponding personal identification numbers are sent to their owners through the mail. The card and number are usually mailed separately several days or weeks apart for security reasons.&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run&gt;&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run&gt;Bulk mail is mail that is prepared for bulk mailing, often by presorting, and processing at reduced rates. It is often used in direct marketing and other advertising mail, although it has other uses as well. The senders of these messages sometimes purchase lists of addresses (which are sometimes targeted towards certain demographics) and then send letters advertising their product or service to all recipients. Other times, commercial solicitations are sent by local companies advertising local products, like a restaurant delivery service advertising to their delivery area or a retail store sending their weekly advertising circular to a general area. Bulk mail is also often sent to companies' existing subscriber bases, advertising new products or services.&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run&gt;&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run&gt;First-class[edit]&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run&gt;First-class mail in the U.S. includes postcards, letters, large envelopes (flats), and small packages, providing each piece weighs 13 ounces or less. Delivery is given priority over second-class (newspapers and magazines), third class (bulk advertisements), and fourth-class mail (books and media packages). First-class mail prices are based on both the shape and weight of the item being mailed. Pieces over 13 ounces can be sent as Priority Mail.[26] As of 2011 42% of first-class mail arrived the next day, 27% in two days, and 31% in three. The USPS expected that changes to the service in 2012 would cause about 51% to arrive in two days and most of the rest in three.[27]&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run&gt;&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run&gt;In the UK, First Class letters are simply a priority option over Second Class, at a slightly higher cost. Royal Mail aims (but does not guarantee) to deliver all First Class letters the day after postage.&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run&gt;&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run&gt;Registered and recorded mail[edit]&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run&gt;Further information: Registered mail&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run&gt;&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run&gt;Multi-franked registered mail from Crete using Greek stamps during the Union with Greece to Egypt in 1914 showing numbered registration label&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run&gt;Registered mail allows the location and in particular the correct delivery of a letter to be tracked. It is usually considerably more expensive than regular mail, and is typically used for valuable items. Registered mail is constantly tracked through the system.&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run&gt;&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run&gt;Recorded mail is handled just like ordinary mail with the exception that it has to be signed for on receipt. This is useful for legal documents where proof of delivery is required.&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run&gt;&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run&gt;In the United Kingdom recorded delivery mail (branded as signed for by the Royal Mail) is covered by The Recorded Delivery Services Act 1962. Under this legislation any document which its relevant law requires service by registered post[28] can also be lawfully served by recorded delivery. This act states that any recorded delivery item is deemed to have been delivered at the instant it is posted if; (a) the item is delivered and signed for at the delivery address or handed over and signed for the at local sorting office (see (c)); (b) delivery is refused by any person occupying the address or (c) if the item is not collected from the sorting office within seven days following a non delivery because there is no reply to the postman and he leaves a collection card. The sorting office will return the item to the sender after the seventh day. The sender should retain the item unopened as proof that the item has been delivered (at least in law if not in fact). Although much case law has attempted to undermine the provisions of the Act, it has done little but reinforce the point.[29]&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run&gt;&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run&gt;Repositionable notes[edit]&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run&gt;The United States Postal Service introduced a test allowing "repositionable notes" (for example, 3M's Post-it notes) to be attached to the outside of envelopes and bulk mailings,[30] afterwards extending the test for an unspecified period.[31]&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run&gt;&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run&gt;Postal cards and postcards[edit]&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run&gt;Postal cards and postcards are small message cards which are sent by mail unenveloped; the distinction often, though not invariably and reliably, drawn between them is that "postal cards" are issued by the postal authority or entity with the "postal indicia" (or "stamp") preprinted on them, while postcards are privately issued and require affixing an adhesive stamp (though there have been some cases of a postal authority's issuing non-stamped postcards). Postcards are often printed to promote tourism, with pictures of resorts, tourist attractions or humorous messages on the front and allowing for a short message from the sender to be written on the back. The postage required for postcards is generally less than postage required for standard letters; however, certain technicalities such as their being oversized or having cut-outs,[32] may result in payment of the first-class rate being required.&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run&gt;&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run&gt;Postcards are also used by magazines for new subscriptions. Inside many magazines are postage-paid subscription cards that a reader can fill out and mail back to the publishing company to be billed for a subscription to the magazine. In this fashion, magazines also use postcards for other purposes, including reader surveys, contests or information requests.&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run&gt;&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run&gt;Postcards are sometimes sent by charities to their members with a message to be signed and sent to a politician (e.g. to promote fair trade or third world debt cancellation).&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run&gt;&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run&gt;&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run&gt;This antique "letter-box" style U.S. mailbox is both on display and in use at the Smithsonian Institution Building.&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run&gt;Other mail services[edit]&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run&gt;Larger envelopes are also sent through the mail. These are often composed of a stronger material than standard envelopes and are often used by businesses to transport documents that may not be folded or damaged, such as legal documents and contracts. Due to their size, larger envelopes are sometimes charged additional postage.&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run&gt;&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run&gt;Packages are often sent through some postal services, usually requiring additional postage than an average letter or postcard. Many postal services have limitations as to what a package may or may not contain, usually placing limits or bans on perishable, hazardous or flammable materials. Some hazardous materials in limited quantities may be shipped with appropriate markings and packaging, like an ORM-D label. Additionally, as a result of terrorism concerns, the U.S. Postal Service subjects their packages to numerous security tests, often scanning or x-raying packages for materials that might be found in biological materials or mail bombs.&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run&gt;&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run&gt;Newspapers and magazines are also sent through postal services. Many magazines are simply placed in the mail normally (but in the U.S., they are printed with a special bar code that acts as pre-paid postage - see POSTNET), but many are now shipped in shrinkwrap to protect the loose contents of the magazine. During the second half of the 19th century and the first half of the 20th century, newspapers and magazines were normally posted using wrappers with a stamp imprint.&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run&gt;&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run&gt;Hybrid mail, sometimes referred to as L-mail, is the electronic lodgement of mail from the mail generator’s computer directly to a Postal Service provider. The Postal Service provider is then able to use electronic means to have the mail piece sorted, routed and physically produced at a site closest to the delivery point. It is a type of mail growing in popularity with some Post Office operations and individual businesses venturing into this market. In some countries, these services are available to print and deliver emails to those who are unable to receive email, such as the elderly or infirm. Services provided by Hybrid mail providers are closely related to that of mail forwarding service providers.&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/Section&gt;</text>
+      <attachments>
+        <attachment>
+          <filename>attach1</filename>
+          <filetype>PNG</filetype>
+          <filedata>iVBORw0KGgoAAAANSUhEUgAAAfMAAAF0CAIAAAC42Ed8AAAPX2lDQ1BJQ0MgUHJvZmlsZQAAeJyV
+V3k01G37v76zGvsyxtiH7PueLdsgawkRRcYYS4aZxmRLRQ9tSlkSkVJIWh5b5NFGUbK2oWiTioSH
+ShTN+wf1/M77nve853f9cZ/P/bmv674+13Xuc+5zAYjJ0dhsJgoAYmK5HO+1DpRNAYEU/CAggAAC
+CiBDo8ex7b28POC/2lw/IAAAj3VpbDZzRr8qJoT/27dZHmNmTq6T8d/jAABAmLMpIBAA0QEAYsQy
+tgMAYugy9gUAYgKXzQVAIgGASI+khQEgKQCgw/H1pgIglQAgHLGMrwGAcOgyvg8AwvH0CC4AMgiA
+E48Ni4oFwH8CwNmEMeLoAMI6ABAWFkePARA+BoCyiYlhhQGI9gGABp3N4QKIzgOAyqaAQMqy5KAL
+AKsRANzcP1ycEUCdOACl7B9O9QcAiQ/gYuY/3GdvQAAAIfXGhRsbAQAAIugAgH3J431WA8DnACxl
+83g/zvJ4S+cA0MMAt5n0HZz4lX4hSDfA/9ov17xiaAQABQBEcIZs+IKEIC9R0Wg+dC0mEquJXcK9
+xrfx1RIu89cJ3BTsFpoQwYvqiPmLZ0q0SqJIFlJp5PsycrLhcg0KfIpbKI3KxFWhKrfUiOqJGo+0
+1LWP68zqeepXGRKMwo1bTIXNmKvbLYiWMVbNa8RtAmxL7b44WFATHBucfqwNdOl203Uv8sStY67v</filedata>
+        </attachment>
+        <attachment>
+          <filename>attach2</filename>
+          <filetype>PDF</filetype>
+          <filedata>iVBORw0KGgoAAAANSUhEUgAAAfMAAAF0CAIAAAC42Ed8AAAPX2lDQ1BJQ0MgUHJvZmlsZQAAeJyV
+V3k01G37v76zGvsyxtiH7PueLdsgawkRRcYYS4aZxmRLRQ9tSlkSkVJIWh5b5NFGUbK2oWiTioSH
+ShTN+wf1/M77nve853f9cZ/P/bmv674+13Xuc+5zAYjJ0dhsJgoAYmK5HO+1DpRNAYEU/CAggAAC
+CiBDo8ex7b28POC/2lw/IAAAj3VpbDZzRr8qJoT/27dZHmNmTq6T8d/jAABAmLMpIBAA0QEAYsQy
+tgMAYugy9gUAYgKXzQVAIgGASI+khQEgKQCgw/H1pgIglQAgHLGMrwGAcOgyvg8AwvH0CC4AMgiA
+E48Ni4oFwH8CwNmEMeLoAMI6ABAWFkePARA+BoCyiYlhhQGI9gGABp3N4QKIzgOAyqaAQMqy5KAL
+AKsRANzcP1ycEUCdOACl7B9O9QcAiQ/gYuY/3GdvQAAAIfXGhRsbAQAAIugAgH3J431WA8DnACxl
+83g/zvJ4S+cA0MMAt5n0HZz4lX4hSDfA/9ov17xiaAQABQBEcIZs+IKEIC9R0Wg+dC0mEquJXcK9
+xrfx1RIu89cJ3BTsFpoQwYvqiPmLZ0q0SqJIFlJp5PsycrLhcg0KfIpbKI3KxFWhKrfUiOqJGo+0
+1LWP68zqeepXGRKMwo1bTIXNmKvbLYiWMVbNa8RtAmxL7b44WFATHBucfqwNdOl203Uv8sStY67v</filedata>
+        </attachment>
+      </attachments>
+    </content>
+  </message>
+  <message folder="Inbox">
+    <subject>Human–computer interaction</subject>
+    <date>29/05/2017 01:24:46</date>
+    <sender>mailadsress@hotmail.com</sender>
+    <recipients>
+      <recipient>wikien@wiki.com</recipient>
+      <recipient>
+        <address visibility="hidden">rec2@gmail.com</address>
+      </recipient>
+      <recipient>
+        <address visibility="hidden">rec3@hotmail.com</address>
+      </recipient>
+      <recipient>
+        <address visibility="hidden">rec4@gmail.com</address>
+      </recipient>
+    </recipients>
+    <content>
+      <text>&lt;Section xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xml:space="preserve" TextAlignment="Left" LineHeight="Auto" IsHyphenationEnabled="False" xml:lang="en-us" FlowDirection="LeftToRight" NumberSubstitution.CultureSource="User" NumberSubstitution.Substitution="AsCulture" FontFamily="Segoe UI" FontStyle="Normal" FontWeight="Normal" FontStretch="Normal" FontSize="12" Foreground="#FF000000" Typography.StandardLigatures="True" Typography.ContextualLigatures="True" Typography.DiscretionaryLigatures="False" Typography.HistoricalLigatures="False" Typography.AnnotationAlternates="0" Typography.ContextualAlternates="True" Typography.HistoricalForms="False" Typography.Kerning="True" Typography.CapitalSpacing="False" Typography.CaseSensitiveForms="False" Typography.StylisticSet1="False" Typography.StylisticSet2="False" Typography.StylisticSet3="False" Typography.StylisticSet4="False" Typography.StylisticSet5="False" Typography.StylisticSet6="False" Typography.StylisticSet7="False" Typography.StylisticSet8="False" Typography.StylisticSet9="False" Typography.StylisticSet10="False" Typography.StylisticSet11="False" Typography.StylisticSet12="False" Typography.StylisticSet13="False" Typography.StylisticSet14="False" Typography.StylisticSet15="False" Typography.StylisticSet16="False" Typography.StylisticSet17="False" Typography.StylisticSet18="False" Typography.StylisticSet19="False" Typography.StylisticSet20="False" Typography.Fraction="Normal" Typography.SlashedZero="False" Typography.MathematicalGreek="False" Typography.EastAsianExpertForms="False" Typography.Variants="Normal" Typography.Capitals="Normal" Typography.NumeralStyle="Normal" Typography.NumeralAlignment="Normal" Typography.EastAsianWidths="Normal" Typography.EastAsianLanguage="Normal" Typography.StandardSwashes="0" Typography.ContextualSwashes="0" Typography.StylisticAlternates="0"&gt;&lt;Paragraph&gt;&lt;Run FontFamily="Vrinda" FontSize="14"&gt;Human–computer interaction (commonly referred to as HCI) researches the design and use of computer technology, focused on the interfaces between people (users) and computers. Researchers in the field of HCI both observe the ways in which humans interact with computers and design technologies that let humans interact with computers in novel ways.&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run FontFamily="Vrinda" FontSize="14"&gt;&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run FontFamily="Vrinda" FontStyle="Italic" FontSize="14" Foreground="#FF0000FF"&gt;As a field of research&lt;/Run&gt;&lt;Run FontFamily="Vrinda" FontSize="14"&gt;, human-computer interaction is situated at the intersection of computer science, behavioral sciences, design, media studies, and several other fields of study. The term was popularized by Stuart K. Card, Allen Newell, and Thomas P. Moran in their seminal 1983 book, The Psychology of Human-Computer Interaction, although the authors first used the term in 1980[1] and the first known use was in 1975.[2] The term connotes that, unlike other tools with only limited uses (such as a hammer, useful for driving nails but not much else), a computer has many uses and this takes place as an open-ended dialog between the user and the computer. The notion of dialog likens human-computer interaction to human-to-human interaction, an analogy which is crucial to theoretical considerations in the field.&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/Section&gt;</text>
+      <attachments>
+        <attachment>
+          <filename>attach1</filename>
+          <filetype>PNG</filetype>
+          <filedata>iVBORw0KGgoAAAANSUhEUgAAAfMAAAF0CAIAAAC42Ed8AAAPX2lDQ1BJQ0MgUHJvZmlsZQAAeJyV
+V3k01G37v76zGvsyxtiH7PueLdsgawkRRcYYS4aZxmRLRQ9tSlkSkVJIWh5b5NFGUbK2oWiTioSH
+ShTN+wf1/M77nve853f9cZ/P/bmv674+13Xuc+5zAYjJ0dhsJgoAYmK5HO+1DpRNAYEU/CAggAAC
+CiBDo8ex7b28POC/2lw/IAAAj3VpbDZzRr8qJoT/27dZHmNmTq6T8d/jAABAmLMpIBAA0QEAYsQy
+tgMAYugy9gUAYgKXzQVAIgGASI+khQEgKQCgw/H1pgIglQAgHLGMrwGAcOgyvg8AwvH0CC4AMgiA
+E48Ni4oFwH8CwNmEMeLoAMI6ABAWFkePARA+BoCyiYlhhQGI9gGABp3N4QKIzgOAyqaAQMqy5KAL
+AKsRANzcP1ycEUCdOACl7B9O9QcAiQ/gYuY/3GdvQAAAIfXGhRsbAQAAIugAgH3J431WA8DnACxl
+83g/zvJ4S+cA0MMAt5n0HZz4lX4hSDfA/9ov17xiaAQABQBEcIZs+IKEIC9R0Wg+dC0mEquJXcK9
+xrfx1RIu89cJ3BTsFpoQwYvqiPmLZ0q0SqJIFlJp5PsycrLhcg0KfIpbKI3KxFWhKrfUiOqJGo+0
+1LWP68zqeepXGRKMwo1bTIXNmKvbLYiWMVbNa8RtAmxL7b44WFATHBucfqwNdOl203Uv8sStY67v</filedata>
+        </attachment>
+        <attachment>
+          <filename>attach2</filename>
+          <filetype>PDF</filetype>
+          <filedata>iVBORw0KGgoAAAANSUhEUgAAAfMAAAF0CAIAAAC42Ed8AAAPX2lDQ1BJQ0MgUHJvZmlsZQAAeJyV
+V3k01G37v76zGvsyxtiH7PueLdsgawkRRcYYS4aZxmRLRQ9tSlkSkVJIWh5b5NFGUbK2oWiTioSH
+ShTN+wf1/M77nve853f9cZ/P/bmv674+13Xuc+5zAYjJ0dhsJgoAYmK5HO+1DpRNAYEU/CAggAAC
+CiBDo8ex7b28POC/2lw/IAAAj3VpbDZzRr8qJoT/27dZHmNmTq6T8d/jAABAmLMpIBAA0QEAYsQy
+tgMAYugy9gUAYgKXzQVAIgGASI+khQEgKQCgw/H1pgIglQAgHLGMrwGAcOgyvg8AwvH0CC4AMgiA
+E48Ni4oFwH8CwNmEMeLoAMI6ABAWFkePARA+BoCyiYlhhQGI9gGABp3N4QKIzgOAyqaAQMqy5KAL
+AKsRANzcP1ycEUCdOACl7B9O9QcAiQ/gYuY/3GdvQAAAIfXGhRsbAQAAIugAgH3J431WA8DnACxl
+83g/zvJ4S+cA0MMAt5n0HZz4lX4hSDfA/9ov17xiaAQABQBEcIZs+IKEIC9R0Wg+dC0mEquJXcK9
+xrfx1RIu89cJ3BTsFpoQwYvqiPmLZ0q0SqJIFlJp5PsycrLhcg0KfIpbKI3KxFWhKrfUiOqJGo+0
+1LWP68zqeepXGRKMwo1bTIXNmKvbLYiWMVbNa8RtAmxL7b44WFATHBucfqwNdOl203Uv8sStY67v</filedata>
+        </attachment>
+      </attachments>
+    </content>
+  </message>
+  <message folder="Sent">
+    <subject>Humans interact with computers in many ways</subject>
+    <date>29/05/2017 01:25:20</date>
+    <sender>mailadsress@hotmail.com</sender>
+    <recipients>
+      <recipient>wikien@wiki.com</recipient>
+      <recipient>
+        <address visibility="hidden">rec2@gmail.com</address>
+      </recipient>
+      <recipient>
+        <address visibility="hidden">rec3@hotmail.com</address>
+      </recipient>
+      <recipient>
+        <address visibility="hidden">rec4@gmail.com</address>
+      </recipient>
+    </recipients>
+    <content>
+      <text>&lt;Section xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xml:space="preserve" TextAlignment="Left" LineHeight="Auto" IsHyphenationEnabled="False" xml:lang="en-us" FlowDirection="LeftToRight" NumberSubstitution.CultureSource="User" NumberSubstitution.Substitution="AsCulture" FontFamily="Segoe UI" FontStyle="Normal" FontWeight="Normal" FontStretch="Normal" FontSize="12" Foreground="#FF000000" Typography.StandardLigatures="True" Typography.ContextualLigatures="True" Typography.DiscretionaryLigatures="False" Typography.HistoricalLigatures="False" Typography.AnnotationAlternates="0" Typography.ContextualAlternates="True" Typography.HistoricalForms="False" Typography.Kerning="True" Typography.CapitalSpacing="False" Typography.CaseSensitiveForms="False" Typography.StylisticSet1="False" Typography.StylisticSet2="False" Typography.StylisticSet3="False" Typography.StylisticSet4="False" Typography.StylisticSet5="False" Typography.StylisticSet6="False" Typography.StylisticSet7="False" Typography.StylisticSet8="False" Typography.StylisticSet9="False" Typography.StylisticSet10="False" Typography.StylisticSet11="False" Typography.StylisticSet12="False" Typography.StylisticSet13="False" Typography.StylisticSet14="False" Typography.StylisticSet15="False" Typography.StylisticSet16="False" Typography.StylisticSet17="False" Typography.StylisticSet18="False" Typography.StylisticSet19="False" Typography.StylisticSet20="False" Typography.Fraction="Normal" Typography.SlashedZero="False" Typography.MathematicalGreek="False" Typography.EastAsianExpertForms="False" Typography.Variants="Normal" Typography.Capitals="Normal" Typography.NumeralStyle="Normal" Typography.NumeralAlignment="Normal" Typography.EastAsianWidths="Normal" Typography.EastAsianLanguage="Normal" Typography.StandardSwashes="0" Typography.ContextualSwashes="0" Typography.StylisticAlternates="0"&gt;&lt;Paragraph&gt;&lt;Run FontFamily="Gadugi"&gt;Humans interact with computers in many ways; the interface between humans and computers is crucial to facilitating this interaction. Desktop applications, internet browsers, handheld computers, and computer kiosks make use of the prevalent graphical user interfaces (GUI) of today.[5] Voice user interfaces (VUI) are used for speech recognition and synthesising systems, and the emerging multi-modal and gestalt User Interfaces (GUI) allow humans to engage with embodied character agents in a way that cannot be achieved with other interface paradigms. The growth in human-computer interaction field has been in quality of interaction, and in different branching in its history. Instead of designing regular interfaces, the different research branches have had a different focus on the concepts of multimodality rather than unimodality, intelligent adaptive interfaces rather than command/action based ones, and finally active rather than passive interfaces.[citation needed]&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run FontFamily="Gadugi"&gt;&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run FontFamily="Gadugi"&gt;The Association for Computing Machinery (ACM) defines human-computer interaction as "a discipline concerned with the design, evaluation and implementation of interactive computing systems for human use and with the study of major phenomena surrounding them".[5] An important facet of HCI is the securing of user satisfaction (or simply End User Computing Satisfaction). "Because human-computer interaction studies a human and a machine in communication, it draws from supporting knowledge on both the machine and the human side. On the machine side, techniques in computer graphics, operating systems, programming languages, and development environments are relevant. On the human side, communication theory, graphic and industrial design disciplines, linguistics, social sciences, cognitive psychology, social psychology, and human factors such as computer user satisfaction are relevant. And, of course, engineering and design methods are relevant."[5] Due to the multidisciplinary nature of HCI, people with a variety of different backgrounds contribute to its success. HCI is also sometimes termed human–machine interaction (HMI), man-machine interaction (MMI) or computer-human interaction (CHI).&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run FontFamily="Gadugi"&gt;&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run FontFamily="Gadugi"&gt;Poorly designed human-machine interfaces can lead to many unexpected problems. A classic example of this is the Three Mile Island accident, a nuclear meltdown accident, where investigations concluded that the design of the human-machine interface was at least partly responsible for the disaster.[6][7][8] Similarly, accidents in aviation have resulted from manufacturers' decisions to use non-standard flight instrument or throttle quadrant layouts: even though the new designs were proposed to be superior in basic human-machine interaction, pilots had already ingrained the "standard" layout and thus the conceptually good idea actually had undesirable results.&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/Section&gt;</text>
+      <attachments>
+        <attachment>
+          <filename>attach1</filename>
+          <filetype>PNG</filetype>
+          <filedata>iVBORw0KGgoAAAANSUhEUgAAAfMAAAF0CAIAAAC42Ed8AAAPX2lDQ1BJQ0MgUHJvZmlsZQAAeJyV
+V3k01G37v76zGvsyxtiH7PueLdsgawkRRcYYS4aZxmRLRQ9tSlkSkVJIWh5b5NFGUbK2oWiTioSH
+ShTN+wf1/M77nve853f9cZ/P/bmv674+13Xuc+5zAYjJ0dhsJgoAYmK5HO+1DpRNAYEU/CAggAAC
+CiBDo8ex7b28POC/2lw/IAAAj3VpbDZzRr8qJoT/27dZHmNmTq6T8d/jAABAmLMpIBAA0QEAYsQy
+tgMAYugy9gUAYgKXzQVAIgGASI+khQEgKQCgw/H1pgIglQAgHLGMrwGAcOgyvg8AwvH0CC4AMgiA
+E48Ni4oFwH8CwNmEMeLoAMI6ABAWFkePARA+BoCyiYlhhQGI9gGABp3N4QKIzgOAyqaAQMqy5KAL
+AKsRANzcP1ycEUCdOACl7B9O9QcAiQ/gYuY/3GdvQAAAIfXGhRsbAQAAIugAgH3J431WA8DnACxl
+83g/zvJ4S+cA0MMAt5n0HZz4lX4hSDfA/9ov17xiaAQABQBEcIZs+IKEIC9R0Wg+dC0mEquJXcK9
+xrfx1RIu89cJ3BTsFpoQwYvqiPmLZ0q0SqJIFlJp5PsycrLhcg0KfIpbKI3KxFWhKrfUiOqJGo+0
+1LWP68zqeepXGRKMwo1bTIXNmKvbLYiWMVbNa8RtAmxL7b44WFATHBucfqwNdOl203Uv8sStY67v</filedata>
+        </attachment>
+        <attachment>
+          <filename>attach2</filename>
+          <filetype>PDF</filetype>
+          <filedata>iVBORw0KGgoAAAANSUhEUgAAAfMAAAF0CAIAAAC42Ed8AAAPX2lDQ1BJQ0MgUHJvZmlsZQAAeJyV
+V3k01G37v76zGvsyxtiH7PueLdsgawkRRcYYS4aZxmRLRQ9tSlkSkVJIWh5b5NFGUbK2oWiTioSH
+ShTN+wf1/M77nve853f9cZ/P/bmv674+13Xuc+5zAYjJ0dhsJgoAYmK5HO+1DpRNAYEU/CAggAAC
+CiBDo8ex7b28POC/2lw/IAAAj3VpbDZzRr8qJoT/27dZHmNmTq6T8d/jAABAmLMpIBAA0QEAYsQy
+tgMAYugy9gUAYgKXzQVAIgGASI+khQEgKQCgw/H1pgIglQAgHLGMrwGAcOgyvg8AwvH0CC4AMgiA
+E48Ni4oFwH8CwNmEMeLoAMI6ABAWFkePARA+BoCyiYlhhQGI9gGABp3N4QKIzgOAyqaAQMqy5KAL
+AKsRANzcP1ycEUCdOACl7B9O9QcAiQ/gYuY/3GdvQAAAIfXGhRsbAQAAIugAgH3J431WA8DnACxl
+83g/zvJ4S+cA0MMAt5n0HZz4lX4hSDfA/9ov17xiaAQABQBEcIZs+IKEIC9R0Wg+dC0mEquJXcK9
+xrfx1RIu89cJ3BTsFpoQwYvqiPmLZ0q0SqJIFlJp5PsycrLhcg0KfIpbKI3KxFWhKrfUiOqJGo+0
+1LWP68zqeepXGRKMwo1bTIXNmKvbLYiWMVbNa8RtAmxL7b44WFATHBucfqwNdOl203Uv8sStY67v</filedata>
+        </attachment>
+      </attachments>
+    </content>
+  </message>
+  <message folder="Sent">
+    <subject>Differences with related fields</subject>
+    <date>29/05/2017 01:25:46</date>
+    <sender>mailadsress@hotmail.com</sender>
+    <recipients>
+      <recipient>wikien@wiki.com</recipient>
+      <recipient>
+        <address visibility="hidden">rec2@gmail.com</address>
+      </recipient>
+      <recipient>
+        <address visibility="hidden">rec3@hotmail.com</address>
+      </recipient>
+      <recipient>
+        <address visibility="hidden">rec4@gmail.com</address>
+      </recipient>
+    </recipients>
+    <content>
+      <text>&lt;Section xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xml:space="preserve" TextAlignment="Left" LineHeight="Auto" IsHyphenationEnabled="False" xml:lang="en-us" FlowDirection="LeftToRight" NumberSubstitution.CultureSource="User" NumberSubstitution.Substitution="AsCulture" FontFamily="Segoe UI" FontStyle="Normal" FontWeight="Normal" FontStretch="Normal" FontSize="12" Foreground="#FF000000" Typography.StandardLigatures="True" Typography.ContextualLigatures="True" Typography.DiscretionaryLigatures="False" Typography.HistoricalLigatures="False" Typography.AnnotationAlternates="0" Typography.ContextualAlternates="True" Typography.HistoricalForms="False" Typography.Kerning="True" Typography.CapitalSpacing="False" Typography.CaseSensitiveForms="False" Typography.StylisticSet1="False" Typography.StylisticSet2="False" Typography.StylisticSet3="False" Typography.StylisticSet4="False" Typography.StylisticSet5="False" Typography.StylisticSet6="False" Typography.StylisticSet7="False" Typography.StylisticSet8="False" Typography.StylisticSet9="False" Typography.StylisticSet10="False" Typography.StylisticSet11="False" Typography.StylisticSet12="False" Typography.StylisticSet13="False" Typography.StylisticSet14="False" Typography.StylisticSet15="False" Typography.StylisticSet16="False" Typography.StylisticSet17="False" Typography.StylisticSet18="False" Typography.StylisticSet19="False" Typography.StylisticSet20="False" Typography.Fraction="Normal" Typography.SlashedZero="False" Typography.MathematicalGreek="False" Typography.EastAsianExpertForms="False" Typography.Variants="Normal" Typography.Capitals="Normal" Typography.NumeralStyle="Normal" Typography.NumeralAlignment="Normal" Typography.EastAsianWidths="Normal" Typography.EastAsianLanguage="Normal" Typography.StandardSwashes="0" Typography.ContextualSwashes="0" Typography.StylisticAlternates="0"&gt;&lt;Paragraph&gt;&lt;Run&gt;HCI differs from human factors and ergonomics as HCI focuses more on users working specifically with computers, rather than other kinds of machines or designed artifacts. There is also a focus in HCI on how to implement the computer software and hardware mechanisms to support human–computer interaction. Thus, human factors is a broader term; HCI could be described as the human factors of computers – although some experts try to differentiate these areas.&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run&gt;&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run&gt;HCI also differs from human factors in that there is less of a focus on repetitive work-oriented tasks and procedures, and much less emphasis on physical stress and the physical form or industrial design of the user interface, such as keyboards and mouse devices.&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run&gt;&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph&gt;&lt;Run&gt;Three areas of study have substantial overlap with HCI even as the focus of inquiry shifts. In the study of personal information management (PIM), human interactions with the computer are placed in a larger informational context – people may work with many forms of information, some computer-based, many not (e.g., whiteboards, notebooks, sticky notes, refrigerator magnets) in order to understand and effect desired changes in their world. In computer-supported cooperative work (CSCW), emphasis is placed on the use of computing systems in support of the collaborative work of a group of people. The principles of human interaction management (HIM) extend the scope of CSCW to an organizational level and can be implemented without use of computers.&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/Section&gt;</text>
+      <attachments>
+        <attachment>
+          <filename>attach1</filename>
+          <filetype>PNG</filetype>
+          <filedata>iVBORw0KGgoAAAANSUhEUgAAAfMAAAF0CAIAAAC42Ed8AAAPX2lDQ1BJQ0MgUHJvZmlsZQAAeJyV
+V3k01G37v76zGvsyxtiH7PueLdsgawkRRcYYS4aZxmRLRQ9tSlkSkVJIWh5b5NFGUbK2oWiTioSH
+ShTN+wf1/M77nve853f9cZ/P/bmv674+13Xuc+5zAYjJ0dhsJgoAYmK5HO+1DpRNAYEU/CAggAAC
+CiBDo8ex7b28POC/2lw/IAAAj3VpbDZzRr8qJoT/27dZHmNmTq6T8d/jAABAmLMpIBAA0QEAYsQy
+tgMAYugy9gUAYgKXzQVAIgGASI+khQEgKQCgw/H1pgIglQAgHLGMrwGAcOgyvg8AwvH0CC4AMgiA
+E48Ni4oFwH8CwNmEMeLoAMI6ABAWFkePARA+BoCyiYlhhQGI9gGABp3N4QKIzgOAyqaAQMqy5KAL
+AKsRANzcP1ycEUCdOACl7B9O9QcAiQ/gYuY/3GdvQAAAIfXGhRsbAQAAIugAgH3J431WA8DnACxl
+83g/zvJ4S+cA0MMAt5n0HZz4lX4hSDfA/9ov17xiaAQABQBEcIZs+IKEIC9R0Wg+dC0mEquJXcK9
+xrfx1RIu89cJ3BTsFpoQwYvqiPmLZ0q0SqJIFlJp5PsycrLhcg0KfIpbKI3KxFWhKrfUiOqJGo+0
+1LWP68zqeepXGRKMwo1bTIXNmKvbLYiWMVbNa8RtAmxL7b44WFATHBucfqwNdOl203Uv8sStY67v</filedata>
+        </attachment>
+        <attachment>
+          <filename>attach2</filename>
+          <filetype>PDF</filetype>
+          <filedata>iVBORw0KGgoAAAANSUhEUgAAAfMAAAF0CAIAAAC42Ed8AAAPX2lDQ1BJQ0MgUHJvZmlsZQAAeJyV
+V3k01G37v76zGvsyxtiH7PueLdsgawkRRcYYS4aZxmRLRQ9tSlkSkVJIWh5b5NFGUbK2oWiTioSH
+ShTN+wf1/M77nve853f9cZ/P/bmv674+13Xuc+5zAYjJ0dhsJgoAYmK5HO+1DpRNAYEU/CAggAAC
+CiBDo8ex7b28POC/2lw/IAAAj3VpbDZzRr8qJoT/27dZHmNmTq6T8d/jAABAmLMpIBAA0QEAYsQy
+tgMAYugy9gUAYgKXzQVAIgGASI+khQEgKQCgw/H1pgIglQAgHLGMrwGAcOgyvg8AwvH0CC4AMgiA
+E48Ni4oFwH8CwNmEMeLoAMI6ABAWFkePARA+BoCyiYlhhQGI9gGABp3N4QKIzgOAyqaAQMqy5KAL
+AKsRANzcP1ycEUCdOACl7B9O9QcAiQ/gYuY/3GdvQAAAIfXGhRsbAQAAIugAgH3J431WA8DnACxl
+83g/zvJ4S+cA0MMAt5n0HZz4lX4hSDfA/9ov17xiaAQABQBEcIZs+IKEIC9R0Wg+dC0mEquJXcK9
+xrfx1RIu89cJ3BTsFpoQwYvqiPmLZ0q0SqJIFlJp5PsycrLhcg0KfIpbKI3KxFWhKrfUiOqJGo+0
+1LWP68zqeepXGRKMwo1bTIXNmKvbLYiWMVbNa8RtAmxL7b44WFATHBucfqwNdOl203Uv8sStY67v</filedata>
+        </attachment>
+      </attachments>
+    </content>
+  </message>
+</messagelist>

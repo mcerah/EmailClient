@@ -1,0 +1,151 @@
+﻿<Window x:Class="HCI_WPF_Email_App.NewMailWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:wpfTool="clr-namespace:Xceed.Wpf.Toolkit;assembly=Xceed.Wpf.Toolkit"
+        xmlns:local="clr-namespace:HCI_WPF_Email_App"
+        Title="NewMailWindow" Height="601.048" Width="700"
+          WindowStyle="None" ResizeMode="CanResizeWithGrip"
+    AllowsTransparency="True"
+         BorderThickness="1" BorderBrush="SteelBlue">
+    <Window.Resources>
+        <Style x:Key="MailLabelStyle" TargetType="{x:Type TextBlock}">
+            <Setter Property="TextWrapping" Value="Wrap"/>
+            <Setter Property="TextTrimming" Value="WordEllipsis"/>
+            <Setter Property="FontSize" Value="13"/>
+            <Setter Property="Margin" Value="0 9"/>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25" Name="MenuRow" ></RowDefinition>
+            <RowDefinition Name="MailInfoRow" Height="145"></RowDefinition>
+            <RowDefinition Height="42"></RowDefinition>
+            <RowDefinition  Height="*"></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="80"></ColumnDefinition>
+            <ColumnDefinition Width="120"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Grid.Row="2" Grid.ColumnSpan="3" Margin="0 15 17 0" Name="EmailContentButtons">
+            <StackPanel Height="30" Orientation="Horizontal" FlowDirection="RightToLeft">
+                <Button Style="{DynamicResource RoundCorner}">
+                    <StackPanel Orientation="Horizontal" >
+                        <Image Margin="5,0" Name="ImageSourceReply" />
+                        <TextBlock  Style="{DynamicResource ButtonTextStyle}"><Run Text="Reply"/></TextBlock>
+                    </StackPanel>
+                </Button>
+                <Button Style="{DynamicResource RoundCorner}">
+                    <StackPanel Orientation="Horizontal" >
+                        <Image Margin="5,0" Name="ImageSourceReplyAll"/>
+                        <TextBlock Style="{DynamicResource ButtonTextStyle}"><Run Text="Reply All"/></TextBlock>
+                    </StackPanel>
+                </Button>
+                <Button Style="{DynamicResource RoundCorner}">
+                    <StackPanel Orientation="Horizontal" >
+                        <Image Margin="5,0" Name="ImageSourceForward"/>
+                        <TextBlock Style="{DynamicResource ButtonTextStyle}"><Run Text="Forward"/></TextBlock>
+                    </StackPanel>
+                </Button>
+                <Button Style="{DynamicResource RoundCorner}" x:Name="DeleteMailButton" >
+                    <StackPanel Orientation="Horizontal" >
+                        <Image Margin="5,0" Name="ImageSourceDelete"/>
+                        <TextBlock Style="{DynamicResource ButtonTextStyle}"><Run Text="Delete"/></TextBlock>
+                    </StackPanel>
+                </Button>
+            </StackPanel>
+        </StackPanel>
+
+
+        <Grid Grid.Column="0" Grid.Row="0"  Grid.ColumnSpan="3" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="45"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <StackPanel Orientation="Horizontal"  HorizontalAlignment="Right" Grid.Column="1" >
+                <Button  Width="21" Style="{DynamicResource RoundCorner}"  Name="MinimizeButton" PreviewMouseLeftButtonUp="MinimizeButton_PreviewMouseLeftButtonUp">
+                    <Image Margin="0" Height="15" Name="ImageSourceMinimize"/>
+                </Button>
+                <Button   Width="21" Style="{DynamicResource RoundCorner}"  Name="ExitButton" PreviewMouseLeftButtonUp="ExitButton_PreviewMouseLeftButtonUp">
+                    <Image Margin="0" Height="15" Name="ImageSourceExit"/>
+                </Button>
+            </StackPanel>
+            <Button Grid.Column="0" Background="White" BorderThickness="0" Name="DragButton" PreviewMouseDown="DragButton_PreviewMouseDown" ></Button>
+        </Grid>
+        
+
+        <StackPanel Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="2" Name="MailInputs">
+            <ComboBox Margin="5" Name="SenderComboBox" FontSize="14" VerticalContentAlignment="Center"   Height="27" >
+                <ComboBoxItem IsSelected="True">mailadsress@hotmail.com</ComboBoxItem>
+                <ComboBoxItem>mailadsres2s@gmail.com</ComboBoxItem>
+            </ComboBox>
+            <TextBox Name="toWhoText" FontSize="14" VerticalContentAlignment="Center" Margin="5" Height="27" ></TextBox>
+            <TextBox Name="SubjectText" FontSize="14" VerticalContentAlignment="Center"  Margin="5"  Height="27" ></TextBox>
+            <StackPanel Orientation="Horizontal" Margin="5" Name="WhenRadioButtons">
+                <RadioButton FontSize="13" Name="SendImmedlyRBtn" Checked="SendImmedlyRBtn_Checked"  Margin="5" IsChecked="True">Send immediately</RadioButton>
+                <RadioButton FontSize="13"  Name="SendLaterRBtn" Checked="SendLaterRBtn_Checked" Margin="5" >Send later</RadioButton>
+
+            </StackPanel>
+            <wpfTool:DateTimePicker FontSize="14" VerticalContentAlignment="Center"  Margin="5"  Height="27" Name="DateText"></wpfTool:DateTimePicker>
+        </StackPanel>
+        <StackPanel Grid.Column="0" Grid.Row="1" Margin="25 2 0 0" Name="MailInputsText">
+            <TextBlock  Style="{DynamicResource MailLabelStyle}"  Name="FromTextBlock"  >From</TextBlock>
+            <TextBlock Style="{DynamicResource MailLabelStyle}"  Name="ToTextBlock"  >To</TextBlock>
+            <TextBlock   Style="{DynamicResource MailLabelStyle}" >Subject</TextBlock>
+            <TextBlock  Style="{DynamicResource MailLabelStyle}"  Margin="0 11" Name="WhenTextBlock" >When</TextBlock>
+            <TextBlock   Style="{DynamicResource MailLabelStyle}"  >Date</TextBlock>
+        </StackPanel>
+
+        <local:MailTextBox x:Name="MailContentText" Grid.RowSpan="2" Margin="0 15 0 5" Grid.Column="0" Grid.ColumnSpan="3" Grid.Row="2"></local:MailTextBox>
+
+
+        <ListView   Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="2" Grid.RowSpan="2" Margin="5,15,5,0" Padding="5,15" Visibility="Hidden" Name="AttachlList" SelectionChanged="AttachlList_SelectionChanged">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+
+                    <StackPanel Orientation="Horizontal" VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
+                        <Border BorderThickness="1"  CornerRadius="3" Padding="1" Focusable="True"  ForceCursor="True" BorderBrush="Black">
+                            <Image Source="{Binding ImageData}" Width="40" Height="40"  HorizontalAlignment="Stretch" VerticalAlignment="Top" Stretch="UniformToFill" />
+                        </Border>
+                        <StackPanel Orientation="Vertical">
+                            <TextBlock Text="{Binding Title}" HorizontalAlignment="Stretch" VerticalAlignment="Top" Padding="5,5"/>
+                            <TextBlock Text="{Binding Size}" HorizontalAlignment="Stretch" FontWeight="SemiBold" Foreground="Gray" VerticalAlignment="Bottom" Padding="5,0"/>
+                        </StackPanel>
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        
+        <StackPanel Margin="5"  Grid.Row="2"  Grid.ColumnSpan="3" >
+            <Separator Margin="0 0 0 0" Style="{StaticResource {x:Static ToolBar.SeparatorStyleKey}}" />
+        </StackPanel>
+        
+        <StackPanel Margin="5"  Grid.Row="4"  Grid.ColumnSpan="3" Name="MailTextButtonsSeparator">
+            <Separator Margin="0 0 0 0" Style="{StaticResource {x:Static ToolBar.SeparatorStyleKey}}" />
+        </StackPanel>
+        
+        <StackPanel Margin="10 10 0 5" Grid.Row="4" Orientation="Horizontal" Grid.ColumnSpan="3"> 
+        
+        <StackPanel Orientation="Horizontal">
+                <Button  Style="{DynamicResource RoundCornerNewMail}" Name="AddFile" Margin="0"  PreviewMouseLeftButtonUp="AddFile_PreviewMouseLeftButtonUp">
+                    <StackPanel Orientation="Vertical" >
+                        <Image Margin="5,0" Height="32" Name="ImageSourceAttachment"/>
+                    </StackPanel>
+                </Button>
+            </StackPanel>
+
+        </StackPanel>
+
+        <StackPanel Margin="10 10 10 5" Grid.Row="4" Grid.Column="3" HorizontalAlignment="Right">
+
+                <Button  Style="{DynamicResource RoundCornerNewMail}"  Name="NewMailSend"  Margin="0" Width="70" PreviewMouseLeftButtonUp="NewMailSend_PreviewMouseLeftButtonUp">
+                <StackPanel Orientation="Vertical" >
+                    <TextBlock Style="{DynamicResource ButtonTextStyle}" Margin="5,2" FontSize="20" HorizontalAlignment="Center">Send</TextBlock>
+                </StackPanel>
+            </Button>
+        </StackPanel>
+    </Grid>
+</Window>
